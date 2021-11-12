@@ -4,15 +4,14 @@ import styled from 'styled-components';
   
 // Style of the navbar
 export const Nav = styled.nav`
+  position: sticky;
+  top: 0;
   background: #24CC54;
-  border-radius: 3px;
-  height: 70px;
+  height: 6vh;
   display: flex;
   justify-content: center;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
+  padding: 0px calc((100vw - 1000px) / 2);
   z-index: 12;
-  /* Third Nav */
-  /* justify-content: flex-start; */
 `;
 
 // Colour of text on nav bar
@@ -32,6 +31,7 @@ export const NavLink = styled(Link)`
 
 export const NavQFin = styled(Link)`
   color: #313131;
+  font-size:15pt;
   font-weight: bold;
   display: flex;
   align-items: center;

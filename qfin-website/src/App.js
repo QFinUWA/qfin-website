@@ -9,12 +9,14 @@ import Projects from './pages/projects';
 import Teams from './pages/team';
 import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
-import MyFooter from './components/myFooter';
+import MyFooter from './components/MyFooter';
+import Banner from './components/Banner';
 
   
 function App() {
   return (
     <Router>
+      <Banner />
       <Navbar />
       <Routes>
         <Route path='/home' element={<Home/>} />
