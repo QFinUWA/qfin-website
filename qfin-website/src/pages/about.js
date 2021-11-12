@@ -2,7 +2,7 @@ import React from 'react';
   
 const About = () => {
   return (
-    <div class="page"
+    <div className="page"
       style={{
         display: 'flex',
         justifyContent: 'Left',

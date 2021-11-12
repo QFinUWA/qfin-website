@@ -9,6 +9,8 @@ import Projects from './pages/projects';
 import Teams from './pages/team';
 import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
+import MyFooter from './components/myFooter';
+
   
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
         <Route path='/blogs' element={<Blogs/>} />
         <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
+      <MyFooter />
     </Router>
   );
 }

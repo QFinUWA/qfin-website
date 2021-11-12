@@ -19,3 +19,7 @@ Pages to include
 
 Reminders:
     mainindex.css # has main css for site, each page uses it 
+
+TODO:
+    Add QFin Logo to navbar
+    Create footer with contact information + picturs for sites like linkedin

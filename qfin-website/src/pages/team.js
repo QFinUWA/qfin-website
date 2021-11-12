@@ -3,15 +3,15 @@ import React from 'react';
   
 const Teams = () => {
   return (
-    <div class="page"
+    <div className="page"
       style={{
         display: 'flex',
-        justifyContent: 'Right',
-        alignItems: 'Right',
+        justifyContent: 'Left',
+        alignItems: 'Left',
         height: '100vh'
       }}
     >
-      <h1>Welcome to GeeksforGeeks Team</h1>
+      <h1>Welcome to QFin Team</h1>
     </div>
   );
 };

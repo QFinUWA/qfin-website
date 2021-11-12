@@ -6,9 +6,9 @@ import styled from 'styled-components';
 export const Nav = styled.nav`
   background: #24CC54;
   border-radius: 3px;
-  height: 60px;
+  height: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0.2rem calc((100vw - 1000px) / 2);
   z-index: 12;
   /* Third Nav */
@@ -30,6 +30,21 @@ export const NavLink = styled(Link)`
   }
 `;
 
+export const NavQFin = styled(Link)`
+  color: #313131;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  &.active {
+    color: #000000;
+  }
+`;
+
+// Icon for the hamburger menu
 export const Bars = styled(FaBars)`
   display: none;
   color: #808080;
@@ -47,7 +62,6 @@ export const Bars = styled(FaBars)`
 export const NavMenu = styled.div`
   display: flex;
   align-items: center;
-  margin-right: -24px;
   /* Second Nav */
   /* margin-right: 24px; */
   /* Third Nav */
@@ -58,7 +72,7 @@ export const NavMenu = styled.div`
   }
 `;
 
-// Sign in button position
+// Sign in button UNUSED RN
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
@@ -72,7 +86,7 @@ export const NavBtn = styled.nav`
   }
 `;
 
-// Sign in button style
+// Sign in button style UNUSED RN
 export const NavBtnLink = styled(Link)`
   border-radius: 4px;
   background: #808080;
