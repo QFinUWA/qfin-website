@@ -4,8 +4,9 @@ import styled from 'styled-components';
   
 // Style of the navbar
 export const Nav = styled.nav`
-  background: #63D471;
-  height: 85px;
+  background: #24CC54;
+  border-radius: 3px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   padding: 0.2rem calc((100vw - 1000px) / 2);
@@ -16,13 +17,13 @@ export const Nav = styled.nav`
 
 // Colour of text on nav bar
 export const NavLink = styled(Link)`
-  color: #808080;
+  color: #313131;
+  font-weight: bold;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
   height: 100%;
-  font-family: Segoe UI;
   cursor: pointer;
   &.active {
     color: #000000;

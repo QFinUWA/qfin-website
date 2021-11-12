@@ -1,8 +1,37 @@
 /* css for whole site */
 body {
-    background-color: rgb(61, 60, 60);
+    background-color: #202124;
+    color: rgb(226, 226, 226);
 }
 
 div.page{
-    background-color: rgb(27,27,27);
+    background-color: #202124;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+html {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+/* css for the scrollbar on side of webpage */
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #121314;
+    
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(122, 122, 129);
+    border-radius: 100px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(90, 90, 99);
 }

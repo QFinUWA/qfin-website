@@ -3,7 +3,7 @@ import React from 'react';
   
 const Blogs = () => {
   return (
-    <div
+    <div className="page"
       style={{
         display: 'flex',
         justifyContent: 'Right',
