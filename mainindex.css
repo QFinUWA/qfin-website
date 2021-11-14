@@ -1,0 +1,95 @@
+/* css for whole site */
+body {
+    position: relative;
+    min-height: 100%;
+    height: auto;
+    background-color: #141416;
+    color: rgb(226, 226, 226);
+    margin-bottom: 0;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+div.page{
+    overflow: hidden;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #141416;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 8px;
+    padding-bottom: 10%;
+    justify-content: center;
+}
+
+div.page > h1.title{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+div.page > p.content {
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
+    text-align: "center";
+}
+
+html {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+footer {
+    position: absolute;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    left: 0px;
+    right: 0px;
+    bottom:-8px;
+    padding: 0 10px 0 10px;
+}
+
+.logo{
+    width: 150px;
+    padding-left: -8px;
+    display:inline-block;
+    float: left;
+}
+
+.banner{
+    height: 100%;
+    width: 100%;
+    align-self: center;
+}
+
+.QFin{
+    font-family: "Copperplate Gothic"
+}
+
+img {
+    vertical-align: middle;
+ }
+
+
+/* css for the scrollbar on side of webpage */
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #232425;
+    
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(97, 97, 102);
+    border-radius: 100px;
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(61, 61, 66);
+}

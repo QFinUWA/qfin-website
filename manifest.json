@@ -1,0 +1,8 @@
+{
+  "short_name": "QFin Site",
+  "name": "QFin UWA Website",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
