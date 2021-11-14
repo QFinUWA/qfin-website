@@ -1,0 +1,25 @@
+Pages to include
+    Homepage
+
+    About
+        Contains Info about the club, sponsers, and the club's history
+    Projects
+        Contains all past and future projects
+    Events
+        Contains all past and future events
+    Team
+        Contains all team members
+    Contact
+        Contains all contact info, might reduce to footer
+    Sign up?
+        could link to google forums to sign up to be a member of the club. 
+        not going to even attempt doing payments online, maybe show bsb and account number
+        Maybe just a sign up to be added to a mailing list about qfin events
+
+
+Reminders:
+    mainindex.css # has main css for site, each page uses it 
+
+TODO:
+    Add QFin Logo to navbar
+    Create footer with contact information + picturs for sites like linkedin
