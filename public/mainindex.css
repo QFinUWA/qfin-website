@@ -1,23 +1,38 @@
 /* css for whole site */
 body {
     position: relative;
-    min-height: 100vh;
+    min-height: 100%;
+    height: auto;
     background-color: #141416;
     color: rgb(226, 226, 226);
     margin-bottom: 0;
-    overflow-x: hidden;
     margin: 0;
+    word-wrap: break-word;
 }
 
 div.page{
+    overflow: hidden;
+    min-height: 100vh;
+    height: 100%;
     background-color: #141416;
     font-family: 'IBM Plex Sans', sans-serif;
     margin: 8px;
+    padding-bottom: 10%;
     justify-content: center;
 }
-div.page > p {
+
+div.page > h1.title{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+div.page > p.content {
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
     text-align: "center";
-    color: purple;
 }
 
 html {
@@ -26,6 +41,7 @@ html {
 
 footer {
     position: absolute;
+    height: 10vh;
     background-color: rgb(0, 0, 0);
     left: 0px;
     right: 0px;
