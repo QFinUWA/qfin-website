@@ -10,13 +10,21 @@ import {
 } from './NavbarElements';
   
 const Navbar = () => {
+
+  const [burgerOpen, setBurgerOpen] = React.useState(false);
+
+  const toggleBurger = () => {
+    setBurgerOpen(!burgerOpen);
+    console.log("BURGER")
+  }
+
   return (
     <>
       <Nav>
         <NavQFin className="QFin" to="/home" activestyle="true">
           QFin UWA
         </NavQFin>
-        <Bars />
+        <Bars className="burger" onClick={toggleBurger}/>
         <NavMenu>
           <NavLink to='/about' activestyle="true">
             About
@@ -28,7 +36,7 @@ const Navbar = () => {
             Events
           </NavLink>
           <NavLink to='/team' activestyle="true">
-            Teams
+            Team
           </NavLink>
           <NavLink to='/blogs' activestyle="true">
             Blogs
@@ -36,8 +44,6 @@ const Navbar = () => {
           <NavLink to='/sign-up' activestyle="true">
             Sign Up
           </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
       </Nav>
     </>
