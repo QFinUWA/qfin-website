@@ -1,0 +1,19 @@
+.card-container{
+    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+}
+
+.card{
+    background-color: red;
+    text-align: center;
+    padding: 8px;
+}
+
+#card-1{
+    background-color: purple;
+}

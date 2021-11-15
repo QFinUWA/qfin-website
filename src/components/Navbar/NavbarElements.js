@@ -10,6 +10,7 @@ export const Nav = styled.nav`
   height: 6vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 0px calc((100vw - 1000px) / 2);
   z-index: 12;
 `;
