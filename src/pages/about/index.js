@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from '../components/Cards/ContentCard';
-import Container from '../components/Cards/Container';
+import Card from '../../components/Card';
+import Container from '../../components/Card/Container';
   
 const About = () => {
   return (
