@@ -23,7 +23,7 @@ div.page{
 
 div.page > h1.title{
     padding: 10px;
-    width: 50%;
+    width: 80%;
     margin: auto;
     text-align: center;
 }
@@ -47,6 +47,10 @@ footer {
     right: 0px;
     bottom:-8px;
     padding: 0 10px 10px 10px;
+}
+.footer-content{
+    max-width: 80%;
+    margin: auto;
 }
 
 .logo{

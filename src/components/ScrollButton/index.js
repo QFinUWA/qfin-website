@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {FaArrowCircleUp} from 'react-icons/fa';
+import {FaRegArrowAltCircleUp} from 'react-icons/fa';
 import { Button } from './ScrollButtonElements';
   
 const ScrollButton = () =>{
@@ -20,8 +20,6 @@ const ScrollButton = () =>{
     window.scrollTo({
       top: 0, 
       behavior: 'smooth'
-      /* you can also use 'auto' behaviour
-         in place of 'smooth' */
     });
   };
   
@@ -29,7 +27,7 @@ const ScrollButton = () =>{
   
   return (
     <Button>
-     <FaArrowCircleUp onClick={scrollToTop} 
+     <FaRegArrowAltCircleUp onClick={scrollToTop} 
      style={{display: visible ? 'inline' : 'none'}} />
     </Button>
   );
