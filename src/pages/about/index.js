@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from '../../components/Card';
 import Container from '../../components/Card/Container';
-  
+
 const About = () => {
   return (
     <div className="page">

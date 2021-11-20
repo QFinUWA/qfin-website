@@ -11,6 +11,7 @@ import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
 import MyFooter from './components/MyFooter';
 import Banner from './components/Banner';
+import ScrollButton from './components/ScrollButton';
 
   
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/blogs' element={<Blogs/>} />
         <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
+      <ScrollButton />
       <MyFooter />
     </Router>
   );
