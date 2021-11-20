@@ -1,12 +1,13 @@
 import React from 'react';
-import './Card.css';
+import '../Card.css';
 
-function Container(props) {
+// children should be of type Card
+function Container({ children }) {
     return (
         <div className="card-container">
-            {props.children}
+            {children}
         </div>
     );
-};
+}; 
 
 export default Container;
