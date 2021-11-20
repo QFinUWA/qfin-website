@@ -18,20 +18,20 @@ const MyFooter = () => {
                         qfinuwa@gmail.com
                     </p>
                     <div className="footer-icons">
-                    <a href="https://www.uwastudentguild.com/clubs/qfin-uwa" target="_blank" rel="noopener noreferrer">
-                        <img class="link-photos" id="uwa-img" src={uwalogo} alt="QFin UWA Guild" />
-                    </a>
-                    <a href="https://discord.gg/pzfasHAFAn" target="_blank" rel="noopener noreferrer">
-                        <img class="link-photos" id="discord-img" src={discordlogo} alt="QFin Discord Server" />
-                    </a>
-                    <a href="https://www.facebook.com/QFinUWA/" target="_blank" rel="noopener noreferrer">
-                        <img class="link-photos" id="facebook-img" src={facebooklogo} alt="QFin Facebook Page" />
+                    <a href="https://github.com/QFinUWA" target="_blank" rel="noopener noreferrer">
+                        <img class="link-photos" id="github-img" src={githublogo} alt="QFin GitHub" />
                     </a>
                     <a href="https://www.linkedin.com/company/qfin-uwa/" target="_blank" rel="noopener noreferrer">
                         <img class="link-photos" id="linkedin-img" src={linkedinlogo} alt="QFin LinkedIn Page" />
                     </a>
-                    <a href="https://github.com/QFinUWA" target="_blank" rel="noopener noreferrer">
-                        <img class="link-photos" id="github-img" src={githublogo} alt="QFin GitHub" />
+                    <a href="https://www.facebook.com/QFinUWA/" target="_blank" rel="noopener noreferrer">
+                        <img class="link-photos" id="facebook-img" src={facebooklogo} alt="QFin Facebook Page" />
+                    </a>
+                    <a href="https://discord.gg/pzfasHAFAn" target="_blank" rel="noopener noreferrer">
+                        <img class="link-photos" id="discord-img" src={discordlogo} alt="QFin Discord Server" />
+                    </a>
+                    <a href="https://www.uwastudentguild.com/clubs/qfin-uwa" target="_blank" rel="noopener noreferrer">
+                        <img class="link-photos" id="uwa-img" src={uwalogo} alt="QFin UWA Guild" />
                     </a>
                     </div>
                 </div>
