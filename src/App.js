@@ -16,6 +16,7 @@ import ScrollButton from './components/ScrollButton';
   
 function App() {
   return (
+    <>
     <Router>
       <Banner />
       <Navbar />
@@ -31,8 +32,9 @@ function App() {
         <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
       <ScrollButton />
-      <MyFooter />
     </Router>
+    <MyFooter />
+    </>
   );
 }
   
