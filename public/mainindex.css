@@ -11,12 +11,12 @@ body {
 }
 
 div.page{
-    overflow: hidden;
+    max-width: 80%;
+    margin: auto;
     min-height: 100vh;
     height: 100%;
     background-color: #141416;
     font-family: 'IBM Plex Sans', sans-serif;
-    margin: 8px;
     padding-bottom: 10%;
     justify-content: center;
 }
@@ -41,12 +41,12 @@ html {
 
 footer {
     position: absolute;
-    height: 10vh;
+    max-height: 100%;
     background-color: rgb(0, 0, 0);
     left: 0px;
     right: 0px;
     bottom:-8px;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 10px 10px;
 }
 
 .logo{
@@ -60,16 +60,12 @@ footer {
     height: 100%;
     width: 100%;
     align-self: center;
+    vertical-align: middle;
 }
 
 .QFin{
     font-family: "Copperplate Gothic"
 }
-
-img {
-    vertical-align: middle;
- }
-
 
 /* css for the scrollbar on side of webpage */
 /* width */
