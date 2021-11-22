@@ -1,13 +1,14 @@
-.link-photos{
+.link-photos {
     object-fit: contain;
     width: 100%;
     height: auto;
     max-width: 60px;
     max-height: 40px;
-    padding: 0 10px; 
+    padding: 0 10px;
+    fill: white;
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
     justify-content: flex-end;
 }
