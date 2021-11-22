@@ -13,6 +13,14 @@ export const Nav = styled.nav`
   align-items: center;
   padding: 0px calc((100vw - 1000px) / 2);
   z-index: 12;
+  padding: 4px;
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-rows: 3rem auto;
+    place-items: center;
+    height: minmax(100%, max-content);
+    height: max-content;
+  }
 `;
 
 // Colour of text on nav bar
@@ -47,17 +55,13 @@ export const NavQFin = styled(Link)`
 
 // Icon for the hamburger menu
 export const Bars = styled(FaBars)`
-  display: none;
   color: #808080;
-  @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 75%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-100%, 75%);
+  font-size: 1.8rem;
+  cursor: pointer;
 `;
 
 export const NavMenu = styled.div`
@@ -69,7 +73,12 @@ export const NavMenu = styled.div`
   /* width: 100vw;
   white-space: nowrap; */
   @media screen and (max-width: 768px) {
-    display: none;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr;
+    place-items: center;
+    grid-gap: 0.5rem;
+    padding-bottom: 1rem;
   }
 `;
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   Nav,
   NavLink,
@@ -12,10 +12,18 @@ import {
 const Navbar = () => {
 
   const [burgerOpen, setBurgerOpen] = React.useState(false);
+  const [isMobile, setIsMobile] = React.useState(false);
+  const onWindowResize = () => setIsMobile(window.innerWidth < 768);
+
+  useEffect(() => {
+    onWindowResize();
+    window.onresize = onWindowResize;
+  }, []);
 
   const toggleBurger = () => {
     setBurgerOpen(!burgerOpen);
     console.log("burger test")
+    console.log(burgerOpen);
   }
 
   return (
@@ -24,27 +32,31 @@ const Navbar = () => {
         <NavQFin className="QFin" to="/home" activestyle="true">
           QFin UWA
         </NavQFin>
-        <Bars className="burger" onClick={toggleBurger}/>
-        <NavMenu>
-          <NavLink to='/about' activestyle="true">
-            About
-          </NavLink>
-          <NavLink to='/projects' activestyle="true">
-            Projects
-          </NavLink>
-          <NavLink to='/events' activestyle="true">
-            Events
-          </NavLink>
-          <NavLink to='/team' activestyle="true">
-            Team
-          </NavLink>
-          <NavLink to='/blogs' activestyle="true">
-            Blogs
-          </NavLink>
-          <NavLink to='/sign-up' activestyle="true">
-            Sign Up
-          </NavLink>
-        </NavMenu>
+        {isMobile &&
+          <Bars className="burger" onClick={toggleBurger}/>
+        }
+        {(!isMobile || burgerOpen) &&
+          <NavMenu>
+            <NavLink to='/about' activestyle="true">
+              About
+            </NavLink>
+            <NavLink to='/projects' activestyle="true">
+              Projects
+            </NavLink>
+            <NavLink to='/events' activestyle="true">
+              Events
+            </NavLink>
+            <NavLink to='/team' activestyle="true">
+              Team
+            </NavLink>
+            <NavLink to='/blogs' activestyle="true">
+              Blogs
+            </NavLink>
+            <NavLink to='/sign-up' activestyle="true">
+              Sign Up
+            </NavLink>
+          </NavMenu>
+        }
       </Nav>
     </>
   );
