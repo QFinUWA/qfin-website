@@ -1,9 +1,13 @@
 import {
     FaGithub,
     FaLinkedin,
-    FaDiscord,
     FaFacebook,
 } from 'react-icons/fa';
+
+// replace with FaDiscord?
+import {
+    BsDiscord
+} from 'react-icons/bs';
 
 import UWALogo from '../Logos/UWA';
 
@@ -19,7 +23,7 @@ const mediaLinks = [
         href: "https://www.linkedin.com/company/qfin-uwa/"
     },
     {
-        Logo: FaDiscord,  
+        Logo: BsDiscord,  
         id: "discord-img",
         href: "https://www.facebook.com/QFinUWA/"
     },

@@ -23,8 +23,7 @@ const MyFooter = () => {
                                 <media.Logo
                                     className="link-photos"
                                     id={media?.id}
-                                    size={32}
-                                    />
+                                />
                             </a>
                         )}
                     </div>
