@@ -56,10 +56,10 @@ export const NavQFin = styled(Link)`
 // Icon for the hamburger menu
 export const Bars = styled(FaBars)`
   color: #808080;
+  height: 2rem;
   position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(-100%, 75%);
+  top: 0.75rem;
+  right: 1.5rem;
   font-size: 1.8rem;
   cursor: pointer;
 `;
