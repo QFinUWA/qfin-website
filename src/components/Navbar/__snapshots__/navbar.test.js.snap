@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Navbar/> matches the snapshot 1`] = `
+exports[`<Navbar/> matches the desktop snapshot 1`] = `
 <div>
   <nav
     class="sc-bdvvtL gZblpu"
@@ -59,6 +59,37 @@ exports[`<Navbar/> matches the snapshot 1`] = `
         Sign Up
       </a>
     </div>
+  </nav>
+</div>
+`;
+
+exports[`<Navbar/> matches the mobile snapshot 1`] = `
+<div>
+  <nav
+    class="sc-bdvvtL gZblpu"
+    data-testid="nav"
+  >
+    <a
+      activestyle="true"
+      class="sc-dkPtRN iNUeEW QFin"
+      href="/home"
+    >
+      QFin UWA
+    </a>
+    <svg
+      class="sc-hKwDye gJLQrH burger"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 448 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+      />
+    </svg>
   </nav>
 </div>
 `;
