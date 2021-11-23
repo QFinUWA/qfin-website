@@ -28,6 +28,16 @@
     
     grid-gap: 10px;
     place-items: center;
+
+}
+
+@media (min-width: 992px)  {
+    .footer-icons {
+        width: 250px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
 }
 
 @media (max-width: 991px)  {
@@ -39,4 +49,8 @@
 
 #facebook-img{
 
+}
+
+.footer-content {
+    position: relative;
 }
