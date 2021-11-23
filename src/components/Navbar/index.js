@@ -22,8 +22,6 @@ const Navbar = () => {
 
   const toggleBurger = () => {
     setBurgerOpen(!burgerOpen);
-    console.log("burger test")
-    console.log(burgerOpen);
   }
 
   return (
