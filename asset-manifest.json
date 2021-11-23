@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/qfin-website/static/css/main.fdf5cc2f.chunk.css",
-    "main.js": "/qfin-website/static/js/main.9ef80bd9.chunk.js",
-    "main.js.map": "/qfin-website/static/js/main.9ef80bd9.chunk.js.map",
+    "main.css": "/qfin-website/static/css/main.7e625cd9.chunk.css",
+    "main.js": "/qfin-website/static/js/main.f53f21dd.chunk.js",
+    "main.js.map": "/qfin-website/static/js/main.f53f21dd.chunk.js.map",
     "runtime-main.js": "/qfin-website/static/js/runtime-main.1005f2ff.js",
     "runtime-main.js.map": "/qfin-website/static/js/runtime-main.1005f2ff.js.map",
-    "static/js/2.a20cd3d3.chunk.js": "/qfin-website/static/js/2.a20cd3d3.chunk.js",
-    "static/js/2.a20cd3d3.chunk.js.map": "/qfin-website/static/js/2.a20cd3d3.chunk.js.map",
+    "static/js/2.e526f441.chunk.js": "/qfin-website/static/js/2.e526f441.chunk.js",
+    "static/js/2.e526f441.chunk.js.map": "/qfin-website/static/js/2.e526f441.chunk.js.map",
     "index.html": "/qfin-website/index.html",
-    "static/css/main.fdf5cc2f.chunk.css.map": "/qfin-website/static/css/main.fdf5cc2f.chunk.css.map",
-    "static/js/2.a20cd3d3.chunk.js.LICENSE.txt": "/qfin-website/static/js/2.a20cd3d3.chunk.js.LICENSE.txt",
-    "static/media/QFin LinkedIn Banner Thinner.d05b6b01.png": "/qfin-website/static/media/QFin LinkedIn Banner Thinner.d05b6b01.png"
+    "static/css/main.7e625cd9.chunk.css.map": "/qfin-website/static/css/main.7e625cd9.chunk.css.map",
+    "static/js/2.e526f441.chunk.js.LICENSE.txt": "/qfin-website/static/js/2.e526f441.chunk.js.LICENSE.txt",
+    "static/media/QFin LinkedIn Banner Thinner.d05b6b01.png": "/qfin-website/static/media/QFin LinkedIn Banner Thinner.d05b6b01.png",
+    "static/media/UWA_logo.107767fe.svg": "/qfin-website/static/media/UWA_logo.107767fe.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1005f2ff.js",
-    "static/js/2.a20cd3d3.chunk.js",
-    "static/css/main.fdf5cc2f.chunk.css",
-    "static/js/main.9ef80bd9.chunk.js"
+    "static/js/2.e526f441.chunk.js",
+    "static/css/main.7e625cd9.chunk.css",
+    "static/js/main.f53f21dd.chunk.js"
   ]
 }
