@@ -3,6 +3,14 @@ import mediaLinks from './mediaLinks';
 
 import "./FooterImgs.css"
 
+const mailQfin = () => {
+    if (typeof window !== 'undefined') {
+        window.location.href="mailto:qfinuwa@gmail.com";
+    }
+    console.log("!!!");
+}
+
+
 const MyFooter = () => {
     return (
         <>
@@ -10,7 +18,7 @@ const MyFooter = () => {
                 <div className="footer-content">
                     <h2 id="footer-header">Contact Us</h2>
                     <p>
-                        <button onclick='location.href="mailto:qfinuwa@gmail.com";'>Email Us</button>  <br/>
+                        <button onClick={mailQfin}>Email Us</button>  <br/>
                         qfinuwa@gmail.com
                     </p>
                     <div className="footer-icons">
