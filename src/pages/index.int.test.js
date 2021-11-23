@@ -1,10 +1,10 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import Home from './index';
 
 describe('<Home/>', () => {
   it('matches the snapshot', () => {
-    const home = renderer.create(<Home />).toJSON();
-    expect(home).toMatchSnapshot();
+    const { container } = render(<Home />);
+    expect(container).toMatchSnapshot();
   })
 })

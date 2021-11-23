@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Nav>
+      <Nav data-testid="nav">
         <NavQFin className="QFin" to="/home" activestyle="true">
           QFin UWA
         </NavQFin>

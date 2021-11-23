@@ -1,13 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Home/> matches the snapshot 1`] = `
-<div
-  className="page"
->
-  <h1
-    className="title"
+<div>
+  <div
+    class="page"
   >
-    Welcome to QFin
-  </h1>
+    <h1
+      class="title"
+    >
+      Welcome to QFin
+    </h1>
+  </div>
 </div>
 `;
