@@ -1,6 +1,5 @@
 .link-photos{
-    object-fit: contain;
-    width: 100%;
+    width: auto;
     height: auto;
     max-width: 60px;
     max-height: 40px;
@@ -9,6 +8,8 @@
 
 .footer-icons{
     display: flex;
+    width: auto;
+    height: auto;
     justify-content: flex-end;
 }
 
