@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/qfin-website/static/css/main.7c59efdc.chunk.css",
-    "main.js": "/qfin-website/static/js/main.565858d2.chunk.js",
-    "main.js.map": "/qfin-website/static/js/main.565858d2.chunk.js.map",
-    "runtime-main.js": "/qfin-website/static/js/runtime-main.1005f2ff.js",
-    "runtime-main.js.map": "/qfin-website/static/js/runtime-main.1005f2ff.js.map",
-    "static/js/2.7a733fdc.chunk.js": "/qfin-website/static/js/2.7a733fdc.chunk.js",
-    "static/js/2.7a733fdc.chunk.js.map": "/qfin-website/static/js/2.7a733fdc.chunk.js.map",
-    "index.html": "/qfin-website/index.html",
-    "static/css/main.7c59efdc.chunk.css.map": "/qfin-website/static/css/main.7c59efdc.chunk.css.map",
-    "static/js/2.7a733fdc.chunk.js.LICENSE.txt": "/qfin-website/static/js/2.7a733fdc.chunk.js.LICENSE.txt",
-    "static/media/QFin LinkedIn Banner Thinner.d05b6b01.png": "/qfin-website/static/media/QFin LinkedIn Banner Thinner.d05b6b01.png",
-    "static/media/UWA_logo.107767fe.svg": "/qfin-website/static/media/UWA_logo.107767fe.svg"
+    "main.css": "/static/css/main.fdf5cc2f.chunk.css",
+    "main.js": "/static/js/main.81fea4c6.chunk.js",
+    "main.js.map": "/static/js/main.81fea4c6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b0338837.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b0338837.js.map",
+    "static/js/2.8405680a.chunk.js": "/static/js/2.8405680a.chunk.js",
+    "static/js/2.8405680a.chunk.js.map": "/static/js/2.8405680a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fdf5cc2f.chunk.css.map": "/static/css/main.fdf5cc2f.chunk.css.map",
+    "static/js/2.8405680a.chunk.js.LICENSE.txt": "/static/js/2.8405680a.chunk.js.LICENSE.txt",
+    "static/media/QFin LinkedIn Banner Thinner.d05b6b01.png": "/static/media/QFin LinkedIn Banner Thinner.d05b6b01.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1005f2ff.js",
-    "static/js/2.7a733fdc.chunk.js",
-    "static/css/main.7c59efdc.chunk.css",
-    "static/js/main.565858d2.chunk.js"
+    "static/js/runtime-main.b0338837.js",
+    "static/js/2.8405680a.chunk.js",
+    "static/css/main.fdf5cc2f.chunk.css",
+    "static/js/main.81fea4c6.chunk.js"
   ]
 }
