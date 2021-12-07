@@ -17,19 +17,7 @@ function App() {
   return (
     <Router>
       <Banner />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/qfin-website" element={<Home/>} />
-        <Route path='/home' element={<Home/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/events' element={<Events/>} />
-        <Route path='/projects' element={<Projects/>} />
-        <Route path='/team' element={<Teams/>} />
-        <Route path='/blogs' element={<Blogs/>} />
-        <Route path='/sign-up' element={<SignUp/>} />
-      </Routes>
-      <MyFooter />
+      <h1>This website is under construction. Please check back later.</h1>
     </Router>
   );
 }
