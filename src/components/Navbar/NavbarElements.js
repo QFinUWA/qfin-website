@@ -8,7 +8,8 @@ export const Nav = styled.nav`
   top: 0;
   background: #24CC54;
   height: 6vh;
-  min-height: 60px;
+  max-height: 60px;
+  min-height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;

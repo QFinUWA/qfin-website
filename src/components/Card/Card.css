@@ -1,5 +1,5 @@
 .card-container{
-    background-color: orange;
+    background-color: rgb(133, 127, 117);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 5px;
@@ -9,7 +9,8 @@
 }
 
 .card{
-    background-color: red;
+    background-color: rgb(34, 34, 34);
+    width: auto;
     text-align: center;
     padding: 8px;
 }
