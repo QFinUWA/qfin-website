@@ -11,37 +11,25 @@ const Projects = () => {
       <div className="ProjectContainer">
         <div className="ProjectYear">
           <h2 className="ProjectYearTitle">2022</h2>
-          Semester 1
+          Semester 2 {/* maybe exclude */}
           <Project  title="Momentum Trading"
                     desc="This project was based on the concept of momentum trading"
                     tools="Python, Pandas"
                     results="'Project report link'"
-                    repo="'Project repo links'"/>
-          Semester 2          
-          <Project />
+                    repo="https://github.com/QFinUWA/Project-Results/tree/main/2021/Semester2-Momentum-Trading"/>
+          Semester 1          
+          <Project  title="Pairs Trading"
+                    desc="This project was based on the concept of pairs trading"
+                    tools="Quant Connect"
+                    results="'Project report link'"
+                    repo="https://github.com/QFinUWA/Project-Results/tree/main/2021/Semester1-Pairs-Trading"/>
         </div>
         <div className="ProjectYear">
-      <h2 className="ProjectYearTitle">2021</h2>
-          <Project />
-          <Project />
+          <h2 className="ProjectYearTitle">2021</h2>
+              <Project />
+              <Project />
         </div>
       </div>
-    {/* 
-    <ProjectContainer>
-      <ProjectYear>
-        <Project>
-        <Project>
-      </ProjectYear>
-      <ProjectYear>
-        <Project>
-        <Project>
-      </ProjectYear>
-    </ProjectContainer>
-    
-    
-    
-    
-    */}
     </div>
   );
 };
