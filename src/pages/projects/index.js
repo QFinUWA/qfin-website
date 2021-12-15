@@ -1,8 +1,8 @@
-import Project from '../../components/Projects';
+import Project from '../../components/Project';
 import "./Project.css"
 
 import React from 'react';
-  
+
 const Projects = () => {
   return (
     <div className="page">
@@ -12,26 +12,36 @@ const Projects = () => {
         <div className="ProjectYear">
           <h2 className="ProjectYearTitle">2022</h2>
           Semester 2 {/* maybe exclude */}
-          <Project  title="Momentum Trading"
-                    desc="This project was based on the concept of momentum trading"
-                    tools="Python, Pandas"
-                    results="'Project report link'"
-                    repo="https://github.com/QFinUWA/Project-Results/tree/main/2021/Semester2-Momentum-Trading"/>
-          Semester 1          
-          <Project  title="Pairs Trading"
-                    desc="This project was based on the concept of pairs trading"
-                    tools="Quant Connect"
-                    results="'Project report link'"
-                    repo="https://github.com/QFinUWA/Project-Results/tree/main/2021/Semester1-Pairs-Trading"/>
-        </div>
+          <Project title="TBD"
+            desc="TBD"
+            tools="TBD"
+            results="'TBD'"
+            repo="TBD" />
+          Semester 1
+          <Project title="TBD"
+            desc="TBD"
+            tools="TBD"
+            results="'TBD'"
+            repo="TBD" />        </div>
         <div className="ProjectYear">
           <h2 className="ProjectYearTitle">2021</h2>
-              <Project />
-              <Project />
+          Semester 2 {/* maybe exclude */}
+          <Project title="Momentum Trading"
+            desc="This project was based on the concept of momentum trading"
+            tools="Python, Pandas"
+            results="'Project report link'"
+            repo="https://github.com/QFinUWA/Project-Results/tree/main/2021/Semester2-Momentum-Trading" />
+          Semester 1
+          <Project title="Pairs Trading"
+            desc="This project was based on the concept of pairs trading"
+            tools="Quant Connect"
+            results="'Project report link'"
+            repo="https://github.com/QFinUWA/Project-Results/tree/main/2021/Semester1-Pairs-Trading" />
+
         </div>
       </div>
     </div>
   );
 };
-  
+
 export default Projects;

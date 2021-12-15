@@ -13,5 +13,5 @@ const Project = (children) => {
         </>
     );
 };
-    
+
 export default Project;
