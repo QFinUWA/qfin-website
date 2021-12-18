@@ -10,7 +10,7 @@ const Person = (children) => {
                 </div>
                 <div className="Person-info">
                     <h2 className="Person-name">{children.name}</h2>
-                    <p className="Person-title">{children.title}</p>
+                    <h3 className="Person-title">{children.title}</h3>
                     <p className="Person-desc">{children.desc}</p>
                     <p className="Person-repo">{children.repo}</p>
                 </div>
