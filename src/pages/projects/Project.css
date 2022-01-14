@@ -17,6 +17,8 @@
     background-color: pink;
     border-radius: 10px;
     width: auto;
+    height: 100%;
+    overflow-y: auto;
 }
 
 .ProjectYear {
@@ -35,4 +37,5 @@
 .Project p{
     margin: 0px;
     text-align: center;
+    width: 80%;
 }
