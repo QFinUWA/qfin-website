@@ -5,10 +5,11 @@ import {
   Bars,
   NavMenu,
   NavQFin,
+  BurgerNavMenu,
   //NavBtn,
   //NavBtnLink,
 } from './NavbarElements';
-  
+
 const Navbar = () => {
 
   const [burgerOpen, setBurgerOpen] = React.useState(false);
@@ -24,16 +25,20 @@ const Navbar = () => {
     setBurgerOpen(!burgerOpen);
   }
 
+  const closeBurger = () => {
+    setBurgerOpen(false);
+  }
+
   return (
     <>
       <Nav>
-        <NavQFin className="QFin" to="/home" activestyle="true">
+        <NavQFin className="QFin" to="/home" onClick={closeBurger} activestyle="true">
           QFin UWA
         </NavQFin>
         {isMobile &&
           <Bars className="burger" onClick={toggleBurger}/>
         }
-        {(!isMobile || burgerOpen) &&
+        {(!isMobile) &&
           <NavMenu>
             <NavLink to='/about' activestyle="true">
               About
@@ -56,6 +61,28 @@ const Navbar = () => {
           </NavMenu>
         }
       </Nav>
+      {(burgerOpen && isMobile) &&
+          <BurgerNavMenu>
+            <NavLink to='/about'  onClick={toggleBurger} activestyle="true">
+              About
+            </NavLink>
+            <NavLink to='/projects' onClick={toggleBurger} activestyle="true">
+              Projects
+            </NavLink>
+            <NavLink to='/events' onClick={toggleBurger} activestyle="true">
+              Events
+            </NavLink>
+            <NavLink to='/team' onClick={toggleBurger} activestyle="true">
+              Team
+            </NavLink>
+            <NavLink to='/blogs' onClick={toggleBurger} activestyle="true">
+              Blogs
+            </NavLink>
+            <NavLink to='/sign-up' onClick={toggleBurger} activestyle="true">
+              Sign Up
+            </NavLink>
+          </BurgerNavMenu>
+        }
     </>
   );
 };

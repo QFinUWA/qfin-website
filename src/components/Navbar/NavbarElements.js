@@ -21,7 +21,7 @@ export const Nav = styled.nav`
     grid-template-rows: 3rem auto;
     place-items: center;
     height: minmax(100%, max-content);
-    height: max-content;
+    // height: max-content;
   }
 `;
 
@@ -37,6 +37,11 @@ export const NavLink = styled(Link)`
   cursor: pointer;
   &.active {
     color: #000000;
+  }
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    width: 300px;
+    color: rgba(255, 255, 255, 0.8);
   }
 `;
 
@@ -58,6 +63,7 @@ export const NavQFin = styled(Link)`
 // Icon for the hamburger menu
 export const Bars = styled(FaBars)`
   color: #808080;
+  background: #24CC54;
   height: 2rem;
   position: absolute;
   top: 0.75rem;
@@ -75,6 +81,11 @@ export const NavMenu = styled.div`
   /* width: 100vw;
   white-space: nowrap; */
   @media screen and (max-width: 768px) {
+    align-items: right;
+    float: right;
+    margin-top: 4px;
+    background-color: rgba(97, 97, 102, 0.9);
+    width: auto;
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr;
@@ -117,3 +128,17 @@ export const NavBtnLink = styled(Link)`
     color: #808080;
   }
 `;
+
+export const BurgerNavMenu = styled.div`
+  position: absolute;
+  justify-items: center;
+  float: right;
+  background-color: rgba(97, 97, 102, 0.9);
+  width: 100%;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  place-items: center;
+  grid-gap: 0.5rem;
+  padding: 1rem 0rem 1rem 0rem;
+  `
