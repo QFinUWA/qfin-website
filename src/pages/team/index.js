@@ -8,6 +8,7 @@ import Jake from '../../components/assets/portraits/JakeLyell.jpg';
 // import Jade from '../../components/assets/portraits/JadeSauta.jpg';
 // import Henry from '../../components/assets/portraits/HenryMiao.jpg';
 // import Dom from '../../components/assets/portraits/DomSauta.jpg';
+// import Jonathan from '../../components/assets/portraits/JonathanChoong.jpg';
 
 const Teams = () => {
   return (
@@ -21,6 +22,7 @@ const Teams = () => {
           github=""
           linkedin="https://www.linkedin.com/in/jatin-poonia-528a441a2/"
           twitter=""
+          email="president@qfinuwa.com"
           image={Jake} /> 
         <Person name="Kane Alexander"
           title="Vice President"
@@ -29,6 +31,7 @@ const Teams = () => {
           github="https://github.com/Kanealex"
           linkedin="https://www.linkedin.com/in/kane-alexander-08131b216/"
           twitter=""
+          email="vice-president@qfinuwa.com"
           image={Jake} />
         <Person name="Jake Lyell"
           title="Executive Director of Trading"
@@ -37,6 +40,7 @@ const Teams = () => {
           github="https://github.com/JakeLDev"
           linkedin="https://www.linkedin.com/in/jake-lyell-8a44b4180/"
           twitter="https://twitter.com/JakeLDev"
+          email="director-of-trading@qfinuwa.com"
           image={Jake} />
         <Person name="Jade Sauta"
           title="Secretary"
@@ -45,6 +49,7 @@ const Teams = () => {
           github=""
           linkedin=""
           twitter=""
+          email="secretary@qfinuwa.com"
           image={Jake} />
         <Person name="Henry Miao"
           title="Treasurer"
@@ -53,6 +58,7 @@ const Teams = () => {
           github=""
           linkedin="https://www.linkedin.com/in/henry-miao/"
           twitter=""
+          email="treasurer@qfinuwa.com"
           image={Jake} />
       </div>
       <h2 className="subtitle">Past executives</h2>
@@ -64,6 +70,7 @@ const Teams = () => {
           github=""
           linkedin="https://www.linkedin.com/in/domenico-sauta/"
           twitter=""
+          email="past-president@qfinuwa.com"
           image={Jake} /> 
         <Person name="Jonathan Choong"
           title="Tresurer - 2020"
@@ -72,6 +79,7 @@ const Teams = () => {
           github=""
           linkedin=""
           twitter=""
+          email=""
           image={Jake} />
       </div>
     </div>

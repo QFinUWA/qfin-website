@@ -4,7 +4,7 @@ import mediaLinks from './mediaLinks';
 
 const mailQfin = () => {
     if (typeof window !== 'undefined') {
-        window.location.href="mailto:qfinuwa@gmail.com";
+        window.location.href="mailto:admin@qfinuwa.com";
     }
 }
 
@@ -17,7 +17,7 @@ const MyFooter = () => {
                     <h2 id="footer-header">Contact Us</h2>
                     <p>
                         <button onClick={mailQfin}>Email Us</button>  <br/>
-                        qfinuwa@gmail.com
+                        admin@qfinuwa.com
                     </p>
                     <div className="footer-icons">
                         {mediaLinks.map((media) => 

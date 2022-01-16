@@ -3,6 +3,7 @@ import {
     FaGithub,
     FaLinkedin,
     FaTwitter,
+    FaRegEnvelope,
 } from 'react-icons/fa';
 
 // component for each team member card
@@ -40,6 +41,13 @@ const Person = (children) => {
                         target="_blank" 
                         rel="noopener noreferrer">
                             <FaTwitter className='contact-icon'/>
+                        </a>
+                        }
+                        {children.email.length > 0 &&
+                        <a href={"mailto:" + children.email}
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            <FaRegEnvelope className='contact-icon'/>
                         </a>
                         }
                     </div>
