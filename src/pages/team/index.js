@@ -2,8 +2,6 @@
 import React from 'react';
 import Person from '../../components/Person';
 
-import "./team.css"
-
 import Jake from '../../components/assets/portraits/JakeLyell.jpg';
 
 const Teams = () => {

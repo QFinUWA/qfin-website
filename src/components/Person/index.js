@@ -1,5 +1,5 @@
 import React from 'react';
-// import "./team.css";
+
 // component for each team member card
 const Person = (children) => {
     return (
