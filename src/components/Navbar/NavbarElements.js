@@ -8,7 +8,7 @@ export const Nav = styled.nav`
   top: 0;
   background: #24CC54;
   height: 6vh;
-  max-height: 60px;
+  max-height: 50px;
   min-height: 50px;
   display: flex;
   justify-content: center;
