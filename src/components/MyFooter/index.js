@@ -1,13 +1,11 @@
 import React from 'react';
 import mediaLinks from './mediaLinks';
 
-import "./FooterImgs.css"
 
 const mailQfin = () => {
     if (typeof window !== 'undefined') {
         window.location.href="mailto:qfinuwa@gmail.com";
     }
-    console.log("!!!");
 }
 
 

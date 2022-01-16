@@ -1,4 +1,9 @@
 import React from 'react';
+import {
+    FaGithub,
+    FaLinkedin,
+    FaTwitter,
+} from 'react-icons/fa';
 
 // component for each team member card
 const Person = (children) => {
@@ -12,10 +17,34 @@ const Person = (children) => {
                     <h2 className="Person-name">{children.name}</h2>
                     <h3 className="Person-title">{children.title}</h3>
                     <p className="Person-desc">{children.desc}</p>
-                    <p className="Person-repo">{children.repo}</p>
+                    {children.pastRoles.length > 0 &&
+                    <p className="Person-past-roles"><b>Past Roles</b>: {children.pastRoles}</p>
+                    }
+                    <div className="contact-icons">
+                        {children.github.length > 0 &&
+                        <a href={children.github} 
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                            <FaGithub className='contact-icon'/>
+                        </a>
+                        }
+                        {children.linkedin.length > 0 &&
+                        <a href={children.linkedin} 
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                            <FaLinkedin className='contact-icon'/>
+                        </a>
+                        }
+                        {children.twitter.length > 0 &&
+                        <a href={children.twitter} 
+                        target="_blank" 
+                        rel="noopener noreferrer">
+                            <FaTwitter className='contact-icon'/>
+                        </a>
+                        }
+                    </div>
                 </div>
             </div>
-
         </>
     );
 };
