@@ -7,7 +7,6 @@ import About from './pages/about';
 import Events from './pages/events';
 import Projects from './pages/projects';
 import Teams from './pages/team';
-import Blogs from './pages/blogs';
 import SignUp from './pages/signup';
 import MyFooter from './components/MyFooter';
 import Banner from './components/Banner';
@@ -28,7 +27,6 @@ function App() {
         <Route path='/events' element={<Events/>} />
         <Route path='/projects' element={<Projects/>} />
         <Route path='/team' element={<Teams/>} />
-        <Route path='/blogs' element={<Blogs/>} />
         <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
       <ScrollButton />

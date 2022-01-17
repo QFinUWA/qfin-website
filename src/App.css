@@ -117,7 +117,7 @@ footer {
     transition: all 0.3s ease-in-out;
 }
 
-.ProjectContainer {
+.ProjectContainer, .EventContainer {
     /* margin: 0px 50px; */
     margin-top: 30px;
     background-color: #141416;
@@ -128,7 +128,7 @@ footer {
     /* overflow-y: auto; */
 }
 
-.ProjectYear {
+.ProjectYear, .EventYear{
     /* background-color: #24CC54; */
     /* background-color: #3F3F3F; */
     width: auto;
@@ -137,7 +137,7 @@ footer {
     margin: 0px 0px 10px 0px;
 }
 
-.ProjectYearTitle{
+.ProjectYearTitle, .EventYearTitle{
     /* color: #24CC54; */
     color: white;
     font-size: 30px;
@@ -159,7 +159,7 @@ footer {
     color: rgb(36, 204, 84);
 }
 
-.Project-image{
+.Project-image, .Event-image{
     float: left;
     display: inline-block;
     /* margin-left: 0;
