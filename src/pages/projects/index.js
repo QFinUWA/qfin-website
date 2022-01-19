@@ -28,7 +28,7 @@ const Projects = () => {
           <Project title="Mean Reversion - Semester 1"
             image="" // Add image of workshop?
             DOT="Jake Lyell"
-            DOTlink="https://www.linkedin.com/in/jake-lyell-8a44b4180/"
+            DOTlink="https://www.linkedin.com/in/jake-lyell/"
             desc="This Project will be focused on the theory of mean reversion. Teams will be given a set of historical data and will be tasked with finding the optimal parameters for a mean reversion model."
             tools="Python, Pandas, Vectorbt"
             repolink="TBD" />        

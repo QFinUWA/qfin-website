@@ -38,7 +38,7 @@ const Teams = () => {
           desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
           pastRoles="2021 Trading Team Member"
           github="https://github.com/JakeLDev"
-          linkedin="https://www.linkedin.com/in/jake-lyell-8a44b4180/"
+          linkedin="https://www.linkedin.com/in/jake-lyell/"
           twitter="https://twitter.com/JakeLDev"
           email="director-of-trading@qfinuwa.com"
           image={Jake} />
