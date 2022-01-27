@@ -4,12 +4,10 @@ import styled from 'styled-components';
   
 // Style of the navbar
 export const Nav = styled.nav`
-  position: sticky;
-  top: 0;
+  // position: sticky;
+  position: relative;
   background: #24CC54;
-  height: 6vh;
-  max-height: 50px;
-  min-height: 50px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;

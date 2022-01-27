@@ -28,7 +28,9 @@ div.page > h1.title{
     margin: 10px;
     text-align: center;
     font-size: 3rem;
+    /* font-size: 300%; */
 }
+
 h2.subtitle{
     padding: 10px;
     width: 100%;
@@ -102,7 +104,7 @@ footer {
     background: rgb(61, 61, 66);
 }
 
-.Project{
+.Project, .Event{
     display: inline-block;
     width: 95%;
     height: auto;
@@ -310,6 +312,9 @@ hr.Section-separator{
     div.page{
       max-width: 85%;
     }
+    h1.title{
+        font-size: 2em !important;
+    }
     
     .ProjectContainer {
         height: auto;
@@ -319,9 +324,9 @@ hr.Section-separator{
   }
 
 @media screen and (max-width: 1100px) {
-    .Project-image{
+    .Project-image, .Event-image{
       /* width: 100% !important; */
       max-width: 100% !important;
       /* max-height: 250px; */
-    }   
+    }
 }

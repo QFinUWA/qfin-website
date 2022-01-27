@@ -50,6 +50,9 @@ const Navbar = () => {
             <NavLink to='/team' activestyle="true">
               Team
             </NavLink>
+            <NavLink to='/sponsors' activestyle="true">
+              Sponsors
+            </NavLink>
             <NavLink to='/sign-up' activestyle="true">
               Sign Up
             </NavLink>
@@ -69,6 +72,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink to='/team' onClick={toggleBurger} activestyle="true">
               Team
+            </NavLink>
+            <NavLink to='/sponsors' onClick={toggleBurger} activestyle="true">
+              Sponsors
             </NavLink>
             <NavLink to='/sign-up' onClick={toggleBurger} activestyle="true">
               Sign Up
