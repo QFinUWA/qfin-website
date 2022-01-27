@@ -155,7 +155,7 @@ footer {
     margin: 10px 0px;
 }
 
-.Project a{
+.Project a, .Event a{
     color: rgb(36, 204, 84);
 }
 

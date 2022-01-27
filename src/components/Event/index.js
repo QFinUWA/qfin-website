@@ -9,14 +9,21 @@ const Event = (children) => {
                 <img className="Event-image" src={children.image} alt={children.title} />
                 }
                 <p className="Event-desc"> <b>Description</b>: {children.desc}</p>
-                <p className="Event-tools"> <b>Technologies</b>: {children.tools}</p>
-                {/* <p className="Event-repo-link"> <b>Repository</b>: <a href={children.repolink} target="_blank" rel="noopener noreferrer">{children.repolink}</a>{children.repo}</p> */}
-                {children.repolink.length > 5 &&
-                <p className="Event-social-post"><b>Repository</b>: <a href={children.repolink} target="_blank" rel="noopener noreferrer">Linkedin</a></p>
-                }      
+                {children.linkedin.length > 0 &&
+                <p className="Event-linkedin-post"><b></b> <a href={children.linkedin} target="_blank" rel="noopener noreferrer">Linkedin Post</a></p>
+                }
+                {children.facebook.length > 0 &&
+                <p className="Event-facebook-post"><b></b> <a href={children.facebook} target="_blank" rel="noopener noreferrer">Facebook Post</a></p>
+                }
             </div>
         </>
     );
 };
 
 export default Event;
+
+// <Event title="TBD"
+//         image=""
+//         desc="TBD"
+//         linkedin="TBD"
+//         facebook="TBD" />
