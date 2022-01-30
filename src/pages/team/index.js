@@ -49,7 +49,7 @@ const Teams = () => {
           github=""
           linkedin=""
           twitter=""
-          email="secretary@qfinuwa.com"
+          email="admin@qfinuwa.com"
           image={Jake} />
         <Person name="Henry Miao"
           title="Treasurer"

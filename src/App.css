@@ -33,7 +33,7 @@ div.page > h1.title{
 
 h2.subtitle{
     padding: 10px;
-    width: 100%;
+    /* width: 100%; */
     margin: 10px;
     text-align: center;
     font-size: 2rem;
@@ -277,6 +277,10 @@ hr.Section-separator{
     height: 100%;
 }
 
+.footer-content {
+    position: relative;
+}
+
 .footer-icons{
     display: grid;
     grid-auto-flow: column;
@@ -302,11 +306,11 @@ hr.Section-separator{
         grid-template-columns: repeat(3, 1fr);
         grid-auto-flow: row;
     }
+    .footer-content{
+        text-align: center;
+    }
 }
 
-.footer-content {
-    position: relative;
-}
 
 @media screen and (max-width: 950px) {
     div.page{

@@ -25,12 +25,12 @@ const mediaLinks = [
     {
         Logo: BsDiscord,  
         id: "discord-img",
-        href: "https://www.facebook.com/QFinUWA/"
+        href: "https://discord.gg/pzfasHAFAn"
     },
     {
         Logo: FaFacebook, 
         id: "facebook-img",
-        href: "https://discord.gg/pzfasHAFAn"
+        href: "https://www.facebook.com/QFinUWA/"
     },
     {
         Logo: UWALogo,    
