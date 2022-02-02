@@ -12,6 +12,10 @@ body {
     flex-direction: column;
 }
 
+a {
+    color: inherit;
+}
+
 div.page{
     background-color: #141416;
     /* background-color: #3F3F3F; */
@@ -108,7 +112,7 @@ footer {
     display: inline-block;
     width: 95%;
     height: auto;
-    background-color: #141416;
+    /* background-color: #141416; */
     /* border-radius: 2px; */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
@@ -242,17 +246,67 @@ hr.Section-separator{
     transition: all 0.3s ease-in-out;
 }
 
+.SponsorContainers{
+    /* margin: 0px 50px; */
+    margin-top: 30px;
+    background-color: #141416;
+    /* border-radius: 10px; */
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    /* overflow-y: auto; */
+}
+
+.PlatinumSponsor{
+    align-items: top;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.GoldSponsors{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: top;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: auto;
+    margin: auto;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.Sponsor-type{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    /* margin: 10px; */
+    border-radius: 5px;
+    width: auto;
+    /* border: 1px solid white; */
+}
+.Sponsor{
+    text-align: center;
+    margin:10px
+}
+
+.Sponsor-logo{
+    /* max-height: 250px; */
+    width: 100%;
+}
+.Sponsor-logo-container{
+    /* height:250px */
+}
+
 .contact-icon {
     color: white;
     height: 35px;
     width: auto;
     margin: 0px 10px 0px 0px;
 }
-
-/* .contact-icons{
-    position: absolute;
-    bottom: 0;
-} */
 
 
 .footer-icons a{
@@ -319,7 +373,9 @@ hr.Section-separator{
     h1.title{
         font-size: 2em !important;
     }
-    
+    .Sponsor-logo-container{
+        height: auto;
+    }
     .ProjectContainer {
         height: auto;
         max-height: 100%;
