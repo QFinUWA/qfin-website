@@ -15,6 +15,8 @@ const Events = () => {
             image=""
             date="TBA"
             desc="iz pokerr"
+            host=""
+            sponsor=""
             attendees=""
             linkedin=""
             facebook="" />
@@ -25,6 +27,8 @@ const Events = () => {
             image={Poker2021}
             date="20th of May 2021"
             desc="QFin UWA and the UWA Maths Union hosted a Poker Tournament..."
+            host=""
+            sponsor=""
             attendees="60"
             linkedin=""
             facebook="https://www.facebook.com/QFinUWA/posts/168551088605855?__cft__[0]=AZX12oedX1bZrHyrIrQ9IAcMbjbfxG9gxeSlxIARF-SFm9LIprIgFZttJUnaVeNbeTMXzUsZwEsau7O_8oG9cxQstDPBOu7b2ZR2WjuT8Jxr5rIp4US4tkWcot3BQ1qV_J29eP2gbndzIeXEZMMZj8Li&__tn__=%2CO%2CP-R" />
@@ -32,6 +36,8 @@ const Events = () => {
             image=""
             date="8th of April 2021 (TODO CONFIRMATION NEEDED)"
             desc="Workshop to teach the trading team about the semester 1 project..."
+            host=""
+            sponsor=""
             attendees="20"
             linkedin=""
             facebook="" />
@@ -39,6 +45,8 @@ const Events = () => {
             image=""
             date="15th of August 2021"
             desc="A fun miscellaneous tournament for our members to test their speed in Minecraft..."
+            host=""
+            sponsor=""
             attendees="10"
             linkedin=""
             facebook="TODO" />
@@ -46,13 +54,17 @@ const Events = () => {
             image=""
             date="2nd of September 2021"
             desc="e-toro sponsored event in which we do paper trading..."
+            host=""
+            sponsor=""
             attendees=""
             linkedin=""
             facebook="" />
           <Event title="Algorithmic Trading x Python Workshop"
             image={PythonWorkshop}
             date="5th of October 2021"
-            desc="A Workshop for QFin members to learn how to use Python to develop trading strategies by backtesting on historical data. Hosted by our 2021 Director of Trading, Kane Alexander"
+            desc="A Workshop for QFin members to learn how to use Python to develop trading strategies by backtesting on historical data."
+            host="Kane Alexander"
+            sponsor=""
             attendees="20"
             linkedin="https://www.linkedin.com/posts/qfin-uwa_yesterday-kane-alexander-our-director-of-activity-6848756902684364801-JvL7"
             facebook="https://www.facebook.com/QFinUWA/posts/273622691432027" />
@@ -60,6 +72,8 @@ const Events = () => {
             image=""
             date=""
             desc=""
+            host=""
+            sponsor=""
             attendees=""
             linkedin=""
             facebook="" />

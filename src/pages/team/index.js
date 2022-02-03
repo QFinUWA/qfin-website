@@ -34,8 +34,8 @@ const Teams = () => {
           email="vice-president@qfinuwa.com"
           image={Jake} />
         <Person name="Jake Lyell"
-          title="Executive Director of Trading"
-          desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
+          title="Director of Trading"
+          desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the trading team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
           pastRoles="2021 Trading Team Member"
           github="https://github.com/JakeLDev"
           linkedin="https://www.linkedin.com/in/jake-lyell/"
@@ -64,7 +64,7 @@ const Teams = () => {
       <h2 className="subtitle">Past executives</h2>
       <div className="TeamContainer">
         <Person name="Dom Sauta"
-          title="President - 2020"
+          title="President - 2021"
           desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
           pastRoles=""
           github=""
@@ -73,11 +73,11 @@ const Teams = () => {
           email="past-president@qfinuwa.com"
           image={Jake} /> 
         <Person name="Jonathan Choong"
-          title="Tresurer - 2020"
+          title="Tresurer - 2021"
           desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
           pastRoles=""
           github=""
-          linkedin=""
+          linkedin="https://www.linkedin.com/in/jonathanjchoong/"
           twitter=""
           email=""
           image={Jake} />

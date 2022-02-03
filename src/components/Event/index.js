@@ -14,10 +14,10 @@ const Event = (children) => {
                 }
                 <p className="Event-date"><b>Date</b>: {children.date}</p>
                 <p className="Event-desc"> <b>Description</b>: {children.desc}</p>
+                {children.host.length > 0 &&
+                <p className="Event-host"> <b>Host</b>: {children.host}</p>
+                }
                 <p className="Event-attendees"><b>Attendees</b>: {children.attendees}</p>
-                {/* {children.linkedin.length > 0 &&
-                <p className="Event-linkedin-post"><b></b> <a href={children.linkedin} target="_blank" rel="noopener noreferrer">Linkedin Post</a></p>
-                } */}
                 {children.facebook.length > 0 &&
                 <a href={children.facebook} 
                 target="_blank" 
