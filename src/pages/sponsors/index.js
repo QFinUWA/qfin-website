@@ -33,6 +33,7 @@ const Sponsors = () => {
           logo={SIGLogo}
           desc="test"
           website="https://sig.com/"/>
+
         </div>
         {/* <hr />
         <h2 className="Sponsor-type">Silver Sponsors</h2>

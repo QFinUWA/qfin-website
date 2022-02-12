@@ -53,7 +53,7 @@ const Projects = () => {
             image={PAIRS}
             DOT="Kane Alexander"
             DOTlink="https://www.linkedin.com/in/kane-alexander-08131b216/"
-            desc="This project was based on the concept of pairs trading"
+            desc="This project was based on the concept of Pairs Trading. The goal of this project was to research potential stock pairs and then design, implement, and backtest an algorithm to trade the pairs. The project was completed by 3 teams of 4 people."
             tools="Python, Quant Connect"
             repolink="https://github.com/QFinUWA/Project-Results/tree/main/2021/Semester1-Pairs-Trading" />
           {/* <hr className='Sub-separator' /> */}

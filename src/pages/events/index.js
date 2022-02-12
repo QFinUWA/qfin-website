@@ -41,15 +41,6 @@ const Events = () => {
             attendees="20"
             linkedin=""
             facebook="" />
-          <Event title="Minecraft Speedrun Tournament"
-            image=""
-            date="15th of August 2021"
-            desc="A fun miscellaneous tournament for our members to test their speed in Minecraft..."
-            host=""
-            sponsor=""
-            attendees="10"
-            linkedin=""
-            facebook="TODO" />
           <Event title="QFin x SMIF Trade-a-thon"
             image=""
             date="2nd of September 2021"
