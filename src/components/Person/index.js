@@ -22,43 +22,43 @@ const Person = (children) => {
                     {children.pastRoles.length > 0 &&
                     <p className="Person-past-roles"><b>Past Roles</b>: {children.pastRoles}</p>
                     }
-                    <div className="contact-icons">
-                        {children.github.length > 0 &&
-                        <a href={children.github} 
-                        target="_blank" 
-                        rel="noopener noreferrer">
-                            <FaGithub className='contact-icon'/>
-                        </a>
-                        }
-                        {children.linkedin.length > 0 &&
-                        <a href={children.linkedin} 
-                        target="_blank" 
-                        rel="noopener noreferrer">
-                            <FaLinkedin className='contact-icon'/>
-                        </a>
-                        }
-                        {children.twitter.length > 0 &&
-                        <a href={children.twitter} 
-                        target="_blank" 
-                        rel="noopener noreferrer">
-                            <FaTwitter className='contact-icon'/>
-                        </a>
-                        }
-                        {children.facebook.length > 0 &&
-                        <a href={children.facebook} 
-                        target="_blank" 
-                        rel="noopener noreferrer">
-                            <FaFacebook className='contact-icon'/>
-                        </a>
-                        }
-                        {children.email.length > 0 &&
-                        <a href={"mailto:" + children.email}
-                        target="_blank"
-                        rel="noopener noreferrer">
-                            <FaRegEnvelope className='contact-icon'/>
-                        </a>
-                        }
-                    </div>
+                </div>
+                <div className="contact-icons">
+                    {children.github.length > 0 &&
+                    <a href={children.github} 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                        <FaGithub className='contact-icon'/>
+                    </a>
+                    }
+                    {children.linkedin.length > 0 &&
+                    <a href={children.linkedin} 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                        <FaLinkedin className='contact-icon'/>
+                    </a>
+                    }
+                    {children.twitter.length > 0 &&
+                    <a href={children.twitter} 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                        <FaTwitter className='contact-icon'/>
+                    </a>
+                    }
+                    {children.facebook.length > 0 &&
+                    <a href={children.facebook} 
+                    target="_blank" 
+                    rel="noopener noreferrer">
+                        <FaFacebook className='contact-icon'/>
+                    </a>
+                    }
+                    {children.email.length > 0 &&
+                    <a href={"mailto:" + children.email}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <FaRegEnvelope className='contact-icon'/>
+                    </a>
+                    }
                 </div>
             </div>
         </>

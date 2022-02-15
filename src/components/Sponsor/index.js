@@ -6,7 +6,7 @@ const Sponsor = (children) => {
             <div className="Sponsor">
                 <div className="Sponsor-logo-container">
                     {children.logo.length > 0 &&
-                    <img className="Sponsor-logo" src={children.logo} alt={children.name} />
+                    <a href={children.website} target="_blank" rel="noopener noreferrer"><img className="Sponsor-logo" src={children.logo} alt={children.name} /></a>
                     }
                 </div>
                 <h2 className="Sponsor-name">{children.name}</h2>

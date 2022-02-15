@@ -7,8 +7,8 @@ import Jatin from '../../components/assets/portraits/Jatin.jpg';
 import Kane from '../../components/assets/portraits/Kane.jpg';
 import Jade from '../../components/assets/portraits/Jade.jpg';
 import Henry from '../../components/assets/portraits/Henry.jpg';
-// import Dom from '../../components/assets/portraits/DomSauta.jpg';
-// import Jonathan from '../../components/assets/portraits/JonathanChoong.jpg';
+import Dom from '../../components/assets/portraits/Dom.png';
+import Jon from '../../components/assets/portraits/Jon.png';
 
 const Teams = () => {
   return (
@@ -22,7 +22,7 @@ const Teams = () => {
           github=""
           linkedin="https://www.linkedin.com/in/jatin-poonia-528a441a2/"
           twitter=""
-          facebook=""
+          facebook="https://www.facebook.com/profile.php?id=100008863037493"
           email="president@qfinuwa.com"
           image={Jatin} /> 
         <Person name="Kane Alexander"
@@ -57,12 +57,12 @@ const Teams = () => {
           image={Jade} />
         <Person name="Henry Miao"
           title="Treasurer"
-          desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
+          desc="Henry is the Treasurer of QFin UWA for 2022. He performs financial tasks for the club, which includes club bookkeeping, event budgeting, and applying for grants. Henry is also responsible for updating the club’s financial statement and furnishing the Committee with such updates relating to the finances and property of the club. He is studying a major in Finance in the Bachelor of Philosophy degree, and is currently pursuing his Honours."
           pastRoles="2021 Committee Member"
           github=""
           linkedin="https://www.linkedin.com/in/henry-miao/"
           twitter=""
-          facebook=""
+          facebook="https://www.facebook.com/henry.miao.58"
           email="treasurer@qfinuwa.com"
           image={Henry} />
       </div>
@@ -77,7 +77,7 @@ const Teams = () => {
           twitter=""
           facebook=""
           email="past-president@qfinuwa.com"
-          image={Jake} /> 
+          image={Dom} /> 
         <Person name="Jonathan Choong"
           title="Tresurer - 2021"
           desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
@@ -87,7 +87,7 @@ const Teams = () => {
           twitter=""
           facebook=""
           email=""
-          image={Jake} />
+          image={Jon} />
       </div>
     </div>
   );
