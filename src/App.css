@@ -122,6 +122,9 @@ footer {
     border-top: 1px solid white;
     /* border-bottom: 1px solid white; */
     transition: all 0.3s ease-in-out;
+    /* animation: 1s ease-out 0s 1 slideInFromLeft; */
+    /* animation: fadein 2s; */
+    /* opacity: 0; */
 }
 
 .ProjectContainer, .EventContainer {
@@ -412,4 +415,20 @@ hr.Section-separator{
     .Sponsor{
         /* width: 100%; */
     }
+}
+
+
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+@keyframes fadein {
+    from { opacity: 0}
+    to   { opacity: 1}
 }

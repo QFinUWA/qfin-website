@@ -7,7 +7,7 @@ import {
 const Event = (children) => {
     return (
         <>
-            <div className="Event">
+            <div className="Event hideme">
                 <h2 className="Event-header">{children.title}</h2>
                 {children.image.length > 0 &&
                 <img className="Event-image" src={children.image} alt={children.title} />
@@ -17,7 +17,9 @@ const Event = (children) => {
                 {children.host.length > 0 &&
                 <p className="Event-host"> <b>Host</b>: {children.host}</p>
                 }
+                {children.attendees.length > 0 &&
                 <p className="Event-attendees"><b>Attendees</b>: {children.attendees}</p>
+                }
                 {children.facebook.length > 0 &&
                 <a href={children.facebook} 
                 target="_blank" 
