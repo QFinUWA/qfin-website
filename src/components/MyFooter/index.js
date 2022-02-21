@@ -34,6 +34,9 @@ const MyFooter = () => {
                         )}
                     </div>
                 </div>
+                <div>
+                    <p className="content" style={{textAlign: "center", margin: "2px 0", }}>Website created with ♥ (and React.js) by Jake Lyell and Arya Gerami Zadegan</p>
+                </div>
             </footer>
         </>
     );

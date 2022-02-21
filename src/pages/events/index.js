@@ -10,7 +10,7 @@ const Events = () => {
   return (
     <div className="page">
       <h1 className="title">QFin Events</h1>
-      <p className="content" style={{textAlign:"center",padding:"30px 0px"}}>Events that QFin has run since the start of the club</p>
+      <p className="content" style={{textAlign:"center",padding:"15px 0px"}}>Events that QFin has run since the start of the club</p>
       <div className="EventsContainer"></div>
         <div className="UpcomingEvents">
           <h2 className="EventYearTitle">Upcoming Events</h2>

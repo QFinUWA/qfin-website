@@ -139,4 +139,5 @@ export const BurgerNavMenu = styled.div`
   place-items: center;
   grid-gap: 0.5rem;
   padding: 1rem 0rem 1rem 0rem;
+  z-index: 10
   `

@@ -6,16 +6,19 @@ import JaneStreetLogo2 from '../../components/assets/sponsor-images/JaneStreetLo
 import SIGLogo from '../../components/assets/sponsor-images/SIGLogo.png';
 import OptiverLogo from '../../components/assets/sponsor-images/Optiver.png';
 import SponsorTiers from "../../components/assets/Documents/QFin Sponsorship Tiers.pdf";
-  
+
+import { Fade } from "react-awesome-reveal";
+
 const Sponsors = () => {
   return (
     <div className="page">
       <h1 className="title">QFin's 2022 Sponsors</h1>
       <p style={{textAlign:"center"}}>QFin's Sponsors for 2022, providing us with financial support to run our events and projects throughout the year.</p>
-      <a href={SponsorTiers} download="QFin Sponsorship Tiers" ><p style={{textAlign:"center"}}>Our Sponsorship Tiers</p></a>
+      <a href={SponsorTiers} download="QFin Sponsorship Tiers" ><p style={{textAlign:"center", fontWeight:"bold"}}>Our Sponsorship Tiers</p></a>
       <div className="SponsorsContainer">
       <hr />
       <h2 className="Sponsor-type" style={{fontSize:"3rem"}}>Platinum Sponsor</h2>
+      <Fade duration={2000} triggerOnce="true">
         <div className="PlatinumSponsor">
           <Sponsor 
           name="IMC Trading"
@@ -23,8 +26,10 @@ const Sponsors = () => {
           desc="Our Platinum tier sponsor is IMC Trading, a leading proprietary trading firm globally and a key market maker in various products listed on exchanges throughout the world. As a pathfinder in advanced technology, IMC values expertise and creativity in its workplace, and takes pride in creating an open culture where great ideas thrive. "
           website="https://www.imc.com/ap/"/>
         </div>
+      </Fade>
         <hr />
         <h2 className="Sponsor-type">Gold Sponsors</h2>
+        <Fade duration={2000} triggerOnce="true">
         <div className="GoldSponsors">
           <Sponsor
           name="Jane Street Capital"
@@ -43,8 +48,8 @@ const Sponsors = () => {
           logo={OptiverLogo}
           desc="Optiver is one of the oldest market making institutions dedicated to making markets more liquid and efficient by providing competitive bid-ask prices across a range of financial products."
           website="https://www.optiver.com/"/>
-
         </div>
+        </Fade>
         {/* <hr />
         <h2 className="Sponsor-type">Silver Sponsors</h2>
         <div className="SilverSponsors"></div> */}

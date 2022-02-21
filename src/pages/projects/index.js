@@ -2,8 +2,8 @@ import Project from '../../components/Project';
 
 import React from 'react';
 
-import MOMENTUM from '../../components/assets/Momentum.png';
-import PAIRS from '../../components/assets/Pairs.png';
+import MOMENTUM from '../../components/assets/project-images/Momentum.png';
+import PAIRS from '../../components/assets/project-images/Pairs.png';
 
 const Projects = () => {
   return (
@@ -30,10 +30,11 @@ const Projects = () => {
             DOT="Jake Lyell"
             DOTlink="https://www.linkedin.com/in/jake-lyell/"
             desc="This Project will be focused on the theory of mean reversion. Teams will be given a set of historical data and will be tasked with finding the optimal parameters for a mean reversion model."
-            tools="Python, Pandas, Vectorbt"
+            tools="Python, Pandas, Custom Backtesting Module"
             repolink="TBD" />        
         </div>
-        <hr className='Section-separator' />
+        {/* <hr className='Section-separator' /> */}
+        {/* <hr></hr> */}
         <div className="ProjectYear">
           <h2 className="ProjectYearTitle">2021</h2>
           {/* Semester 2 */}
