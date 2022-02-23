@@ -14,7 +14,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Teams = () => {
   return (
-    <div className="page">
+    <div className="page" style={{maxWidth:"90%"}}>
       <h1 className="title">2022 QFin Executive Team</h1>
       <p className="content" style={{textAlign:"center",padding:"15px 0px"}}>The current team of Execs in charge of running QFin for 2022</p>
       <div className="TeamContainer">
@@ -25,6 +25,7 @@ const Teams = () => {
           pastRoles="2021 Vice President"
           github=""
           linkedin="https://www.linkedin.com/in/jatin-poonia-528a441a2/"
+          website=""
           twitter=""
           facebook="https://www.facebook.com/profile.php?id=100008863037493"
           email="president@qfinuwa.com"
@@ -33,10 +34,11 @@ const Teams = () => {
       <Fade duration={2000} triggerOnce="true">
         <Person name="Kane Alexander"
           title="Vice President"
-          desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
+          desc="Kane is the Vice President of QFin UWA for 2022. Last year he was the Executive Director of Trading where he coordinated the first trading team projects. Kane utilizes his technical and leadership experience to help QFin develop as a leading technology club on campus. He is in his honours year of software engineering and computer science."
           pastRoles="2021 Director of Trading"
           github="https://github.com/Kanealex"
           linkedin="https://www.linkedin.com/in/kane-alexander-08131b216/"
+          website=""
           twitter=""
           facebook=""
           email="vice-president@qfinuwa.com"
@@ -49,6 +51,7 @@ const Teams = () => {
             pastRoles="2021 Trading Team Member"
             github="https://github.com/JakeLDev"
             linkedin="https://www.linkedin.com/in/jake-lyell/"
+            website="https://jakelyell.dev"
             twitter="https://twitter.com/JakeLDev"
             facebook=""
             email="director-of-trading@qfinuwa.com"
@@ -57,10 +60,11 @@ const Teams = () => {
         <Fade duration={2000} triggerOnce="true">
           <Person name="Jade Sauta"
             title="Secretary"
-            desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
+            desc="Reprising the role from QFin’s inception in 2021, Jade is the Secretary of QFin UWA in 2022. She is responsible for liasing with stakeholders and maintaining the administrative side of QFin’s affairs. Jade is studying a double major in Political Science & International Relations and English & Literary Studies in 2022 and enjoys diversifying her skill set through learning about quantitative trading."
             pastRoles="2021 Secretary"
             github=""
             linkedin=""
+            website=""
             twitter=""
             facebook=""
             email="admin@qfinuwa.com"
@@ -73,6 +77,7 @@ const Teams = () => {
           pastRoles="2021 Committee Member"
           github=""
           linkedin="https://www.linkedin.com/in/henry-miao/"
+          website=""
           twitter=""
           facebook="https://www.facebook.com/henry.miao.58"
           email="treasurer@qfinuwa.com"
@@ -86,8 +91,9 @@ const Teams = () => {
           title="President - 2021"
           desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
           pastRoles=""
-          github=""
+          github="https://github.com/domsaut"
           linkedin="https://www.linkedin.com/in/domenico-sauta/"
+          website=""
           twitter=""
           facebook=""
           email="past-president@qfinuwa.com"
@@ -100,6 +106,7 @@ const Teams = () => {
           pastRoles=""
           github=""
           linkedin="https://www.linkedin.com/in/jonathanjchoong/"
+          website=""
           twitter=""
           facebook=""
           email=""

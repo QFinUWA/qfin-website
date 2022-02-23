@@ -4,7 +4,8 @@ import {
     FaLinkedin,
     FaTwitter,
     FaRegEnvelope,
-    FaFacebook
+    FaFacebook,
+    FaLink
 } from 'react-icons/fa';
 
 // component for each team member card
@@ -36,6 +37,13 @@ const Person = (children) => {
                     target="_blank" 
                     rel="noopener noreferrer">
                         <FaLinkedin className='contact-icon'/>
+                    </a>
+                    }
+                    {children.website.length > 0 &&
+                    <a href={children.website}
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <FaLink className='contact-icon'/>
                     </a>
                     }
                     {children.twitter.length > 0 &&

@@ -38,14 +38,14 @@ const Navbar = () => {
         }
         {(!isMobile) &&
           <NavMenu>
-            <NavLink to='/about' activestyle="true">
+            {/* <NavLink to='/about' activestyle="true">
               About
+            </NavLink> */}
+            <NavLink to='/events' activestyle="true">
+              Events
             </NavLink>
             <NavLink to='/projects' activestyle="true">
               Projects
-            </NavLink>
-            <NavLink to='/events' activestyle="true">
-              Events
             </NavLink>
             <NavLink to='/team' activestyle="true">
               Team
@@ -53,9 +53,7 @@ const Navbar = () => {
             <NavLink to='/sponsors' activestyle="true">
               Sponsors
             </NavLink>
-            <NavLink to='/sign-up' activestyle="true">
-              Sign Up
-            </NavLink>
+            <a href='https://forms.gle/LjNMSxCUY9ytyvJ97' target="blank_" style={{textDecoration: "none"}}><div className='fakeNavLink'>Sign Up</div> </a>
           </NavMenu>
         }
       </Nav>
@@ -76,9 +74,7 @@ const Navbar = () => {
             <NavLink to='/sponsors' onClick={toggleBurger} activestyle="true">
               Sponsors
             </NavLink>
-            <NavLink to='/sign-up' onClick={toggleBurger} activestyle="true">
-              Sign Up
-            </NavLink>
+            <a href='https://forms.gle/LjNMSxCUY9ytyvJ97' target="blank_" style={{textDecoration: "none"}}><div className='fakeNavLink'>Sign Up</div> </a>
           </BurgerNavMenu>
         }
     </>
