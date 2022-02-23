@@ -11,8 +11,9 @@ const Home = () => {
         <li className="content">To create an inclusive environment for students with a common interest in mathematics and finance to meet one another </li>
         </ul>
       <p className="content">QFin operates at the intersection of the EMS and Commerce faculty, and as such brings these students from different backgrounds together. We combine mathematics, finance, economics, engineering, computer science and data science to solve complicated problems relating to the financial markets.</p>
-      <h1 className="title" style={{margin: "10px 0px"}}>Our History</h1>
-      <p className="content">QFin was founded in 2021</p>
+      <div className='content'>
+        <p className="content2">QFin hosts Quantitative Finance-based events and runs algorithmic trading projects for our trading team. Read more about these on our website! </p>
+      </div>
 
       </div>
   );

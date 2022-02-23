@@ -48,6 +48,11 @@ div.page p.content{
     text-align: "center";
     font-size: 1.2em;
 }
+p.content2{
+    text-align: "center";
+    font-size: 1.2em;
+}
+
 li.content{
     margin: auto;
     text-align: "center";
