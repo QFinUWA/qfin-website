@@ -14,7 +14,7 @@ const Sponsors = () => {
     <div className="page">
       <h1 className="title">QFin's 2022 Sponsors</h1>
       <p style={{textAlign:"center"}} className="content">QFin's Sponsors for 2022, providing us with financial support to run our events and projects throughout the year.</p>
-      <a href={SponsorTiers} download="QFin Sponsorship Tiers"><p className="content" style={{textAlign:"center", fontWeight:"bold", margin:"10px"}}>Our Sponsorship Tiers</p></a>
+      <p className="content" style={{textAlign:"center", fontWeight:"bold", margin:"10px"}}><a href={SponsorTiers} download="QFin Sponsorship Tiers">Our Sponsorship Tiers</a></p>
       <div className="SponsorsContainer">
       <hr />
       <h2 className="Sponsor-type" style={{fontSize:"3rem"}}>Platinum Sponsor</h2>
