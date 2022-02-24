@@ -1,21 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdf5cc2f.chunk.css",
-    "main.js": "/static/js/main.21707cf2.chunk.js",
-    "main.js.map": "/static/js/main.21707cf2.chunk.js.map",
+    "main.css": "/static/css/main.f9227c3b.chunk.css",
+    "main.js": "/static/js/main.db059892.chunk.js",
+    "main.js.map": "/static/js/main.db059892.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b0338837.js",
     "runtime-main.js.map": "/static/js/runtime-main.b0338837.js.map",
-    "static/js/2.7d69e660.chunk.js": "/static/js/2.7d69e660.chunk.js",
-    "static/js/2.7d69e660.chunk.js.map": "/static/js/2.7d69e660.chunk.js.map",
+    "static/js/2.9114c28c.chunk.js": "/static/js/2.9114c28c.chunk.js",
+    "static/js/2.9114c28c.chunk.js.map": "/static/js/2.9114c28c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fdf5cc2f.chunk.css.map": "/static/css/main.fdf5cc2f.chunk.css.map",
-    "static/js/2.7d69e660.chunk.js.LICENSE.txt": "/static/js/2.7d69e660.chunk.js.LICENSE.txt",
-    "static/media/QFin LinkedIn Banner Thinner.d05b6b01.png": "/static/media/QFin LinkedIn Banner Thinner.d05b6b01.png"
+    "static/css/main.f9227c3b.chunk.css.map": "/static/css/main.f9227c3b.chunk.css.map",
+    "static/js/2.9114c28c.chunk.js.LICENSE.txt": "/static/js/2.9114c28c.chunk.js.LICENSE.txt",
+    "static/media/Dom small.7c9e6a66.png": "/static/media/Dom small.7c9e6a66.png",
+    "static/media/Henry small.59211a8c.jpg": "/static/media/Henry small.59211a8c.jpg",
+    "static/media/IMCLogo.9a83c43f.png": "/static/media/IMCLogo.9a83c43f.png",
+    "static/media/Jade small.b217e4c2.jpg": "/static/media/Jade small.b217e4c2.jpg",
+    "static/media/Jake small.df74dce8.jpg": "/static/media/Jake small.df74dce8.jpg",
+    "static/media/JaneStreetLogo.5702647f.png": "/static/media/JaneStreetLogo.5702647f.png",
+    "static/media/JaneStreetLogo2.398cf542.png": "/static/media/JaneStreetLogo2.398cf542.png",
+    "static/media/Jatin small.96a288c0.jpg": "/static/media/Jatin small.96a288c0.jpg",
+    "static/media/Jon small.9f8229d9.png": "/static/media/Jon small.9f8229d9.png",
+    "static/media/Kane small.450a4c5e.jpg": "/static/media/Kane small.450a4c5e.jpg",
+    "static/media/Momentum.ead64933.png": "/static/media/Momentum.ead64933.png",
+    "static/media/Pairs.8146ff80.png": "/static/media/Pairs.8146ff80.png",
+    "static/media/PythonWorkshop1.74104be4.jpg": "/static/media/PythonWorkshop1.74104be4.jpg",
+    "static/media/QFin LinkedIn Banner Thinner.d05b6b01.png": "/static/media/QFin LinkedIn Banner Thinner.d05b6b01.png",
+    "static/media/QFin Sponsorship Tiers.44146c13.pdf": "/static/media/QFin Sponsorship Tiers.44146c13.pdf",
+    "static/media/QFinPoker2021.66c08ddb.jpg": "/static/media/QFinPoker2021.66c08ddb.jpg",
+    "static/media/UWA_logo.107767fe.svg": "/static/media/UWA_logo.107767fe.svg",
+    "static/media/studynightECOMS21.de1919a5.png": "/static/media/studynightECOMS21.de1919a5.png",
+    "static/media/tradeathonSMIFeToro.c06d0a0a.jpg": "/static/media/tradeathonSMIFeToro.c06d0a0a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b0338837.js",
-    "static/js/2.7d69e660.chunk.js",
-    "static/css/main.fdf5cc2f.chunk.css",
-    "static/js/main.21707cf2.chunk.js"
+    "static/js/2.9114c28c.chunk.js",
+    "static/css/main.f9227c3b.chunk.css",
+    "static/js/main.db059892.chunk.js"
   ]
 }
