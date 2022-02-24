@@ -1,11 +1,42 @@
 import React from 'react';
+import mediaLinks from './mediaLinks';
+
+
+const mailQfin = () => {
+    if (typeof window !== 'undefined') {
+        window.location.href="mailto:admin@qfinuwa.com";
+    }
+}
 
 
 const MyFooter = () => {
     return (
         <>
             <footer className="footer">
-                <h2>This is footer, Contact Stuff will go here</h2>
+                <div className="footer-content">
+                    <h2 id="footer-header">Contact Us</h2>
+                    <p>
+                        <button onClick={mailQfin}>Email Us</button>  <br/>
+                        admin@qfinuwa.com
+                    </p>
+                    <div className="footer-icons">
+                        {mediaLinks.map((media) => 
+                            <a 
+                                href={media.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <media.Logo
+                                    className="link-photos"
+                                    id={media?.id}
+                                />
+                            </a>
+                        )}
+                    </div>
+                </div>
+                <div>
+                    <p className="content" style={{textAlign: "center", margin: "2px 0", }}>Website created with ♥ (and React.js) by <a href="https://github.com/JakeLDev">Jake Lyell</a> and <a href="https://github.com/cookies-xor-cream">Arya Gerami Zadegan</a></p>
+                </div>
             </footer>
         </>
     );

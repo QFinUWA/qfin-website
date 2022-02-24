@@ -1,76 +1,89 @@
 # QFin Website
 Official Website for QFin UWA
 
-# Getting Started with Create React App
+## Setup
+Note: this project is using `npm` as opposed to `yarn`
+```bash
+npm install
+```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Development
+```bash
+npm start # starts a development server (localhost:3000)
+```
 
-## Available Scripts
+## Testing
+Note: currently no testing is implemented
+```bash
+npm run test
+```
 
-In the project directory, you can run:
+## Deployment
+```bash
+npm run build # or alternative `predeploy`
+npm run deploy
+```
 
-### `npm install`
-Ensure that node is installed on your computer, if it isn't, you can install it from here: https://nodejs.org/en/
+The app deploys to [https://qfinuwa.github.io/qfin-website/](https://qfinuwa.github.io/qfin-website/)
 
-### `npm start`
+On running `npm run deploy` the built app is pushed to `origin/gh-pages` where github pages serves the site.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Getting Started
+### Contributing
+Head over to `Issues` and find an unresolved and unassigned issue, once found you may self-assign the issue (or if you do not have the permissions you may ask someone to do so for you).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Branching
+Once assigned an issue you should branch off from the most recent commit to `staging`:
+```bash
+git checkout staging
+git pull origin staging
+```
 
-### `npm test`
+And then branch off from there:
+```bash
+# remember to replace what's in <> brackets
+git checkout -b \#<issue-number>-<issue-description>
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Branch names should be in [kebab-case](https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841)
 
-### `npm run build`
+#### Pull Requests
+Once you have worked on your issue and are satisfied with your work (be sure to test it!) then you can open a pull request into `staging` (or the applicable branch).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Assign at least one reviewer to your pull request so that they can double change your changes. They may request changes on the pull request. Pushing to the branch once the pull request is opened will update the pull request and the reviewers will review your code again.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once all reviewers are happy with the pull request and don't want any further changes they will approve your pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+When your pull request is fully approved you may merge your branch into `staging` via the pull request. You should then test `staging` to see that your changes were applied as intended and nothing broke.
 
-### `npm run eject`
+### Style
+#### Casings
+A list of the different casings can be found [here](https://betterprogramming.pub/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841)
+|Language|Style|
+|:--:|:--:|
+|HTML|kebab case|
+|CSS|kebab case|
+|JS|Camel case|
+|JSX|Camel case|
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Implementation Details
+### Directory Structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+/src
+    /pages
+        /*          # contains all pages -- typically nested same as the routing
+    /components
+        /assets     # contains all static assets for the site
+        /*          # contains all components for the site
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Routing
+Routing is done manually in `/src/App.js`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In order to add your own page and route it follow these steps:
+1. under the `/src/pages` dir write a react component
+2. In `/src/App.js` import the react component
+3. Append a `Route` component to the children of the `Routes` component
+   1. Set the path to the desired path for the page component to render
+   2. Set the element to the page component: `<Component />`

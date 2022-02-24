@@ -4,14 +4,23 @@ import styled from 'styled-components';
   
 // Style of the navbar
 export const Nav = styled.nav`
-  position: sticky;
-  top: 0;
+  // position: sticky;
+  position: relative;
   background: #24CC54;
-  height: 6vh;
+  height: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 0px calc((100vw - 1000px) / 2);
   z-index: 12;
+  padding: 4px;
+  @media screen and (max-width: 768px) {
+    display: grid;
+    grid-template-rows: 3rem auto;
+    place-items: center;
+    height: minmax(100%, max-content);
+    // height: max-content;
+  }
 `;
 
 // Colour of text on nav bar
@@ -22,10 +31,16 @@ export const NavLink = styled(Link)`
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  height: 100%;
+  height: 50px;
   cursor: pointer;
   &.active {
     color: #000000;
+  }
+  @media screen and (max-width: 768px) {
+    justify-content: center;
+    height: 100%;
+    width: 300px;
+    color: rgba(255, 255, 255, 0.8);
   }
 `;
 
@@ -46,17 +61,14 @@ export const NavQFin = styled(Link)`
 
 // Icon for the hamburger menu
 export const Bars = styled(FaBars)`
-  display: none;
   color: #808080;
-  @media screen and (max-width: 768px) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 75%);
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
+  background: #24CC54;
+  height: 2rem;
+  position: absolute;
+  top: 0.75rem;
+  right: 1.5rem;
+  font-size: 1.8rem;
+  cursor: pointer;
 `;
 
 export const NavMenu = styled.div`
@@ -68,7 +80,17 @@ export const NavMenu = styled.div`
   /* width: 100vw;
   white-space: nowrap; */
   @media screen and (max-width: 768px) {
-    display: none;
+    align-items: right;
+    float: right;
+    margin-top: 4px;
+    background-color: rgba(97, 97, 102, 0.9);
+    width: auto;
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr;
+    place-items: center;
+    grid-gap: 0.5rem;
+    padding-bottom: 1rem;
   }
 `;
 
@@ -105,3 +127,18 @@ export const NavBtnLink = styled(Link)`
     color: #808080;
   }
 `;
+
+export const BurgerNavMenu = styled.div`
+  position: absolute;
+  justify-items: center;
+  float: right;
+  background-color: rgba(97, 97, 102, 0.9);
+  width: 100%;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr;
+  place-items: center;
+  grid-gap: 0.5rem;
+  padding: 1rem 0rem 1rem 0rem;
+  z-index: 10
+  `

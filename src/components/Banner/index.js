@@ -1,11 +1,12 @@
 import React from 'react';
-import banner from "../assets/QFin LinkedIn Banner Thinner.png";
+import bannerimg from "../assets/QFin LinkedIn Banner Thinner.png";
+import { NavLink } from 'react-router-dom';
 
 
 const Banner = () => {
     return (
         <>
-            <img className="banner" src={banner} alt="QFin Banner" />
+            <NavLink to="/home"><img className="banner" src={bannerimg} alt="QFin Banner" /></NavLink>
         </>
     );
 };

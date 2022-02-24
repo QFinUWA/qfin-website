@@ -7,14 +7,16 @@ import About from './pages/about';
 import Events from './pages/events';
 import Projects from './pages/projects';
 import Teams from './pages/team';
-import Blogs from './pages/blogs';
+import Sponsors from './pages/sponsors';
 import SignUp from './pages/signup';
 import MyFooter from './components/MyFooter';
 import Banner from './components/Banner';
+import ScrollButton from './components/ScrollButton';
 
   
 function App() {
   return (
+    <>
     <Router>
       <Banner />
       <Navbar />
@@ -25,12 +27,14 @@ function App() {
         <Route path='/about' element={<About/>} />
         <Route path='/events' element={<Events/>} />
         <Route path='/projects' element={<Projects/>} />
+        <Route path='/sponsors' element={<Sponsors/>} />
         <Route path='/team' element={<Teams/>} />
-        <Route path='/blogs' element={<Blogs/>} />
         <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
-      <MyFooter />
+      <ScrollButton />
     </Router>
+    <MyFooter />
+    </>
   );
 }
   
