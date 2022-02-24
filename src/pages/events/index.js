@@ -16,7 +16,7 @@ const Events = () => {
           <h2 className="EventYearTitle">Upcoming Events</h2>
           <Fade duration={2000} triggerOnce="true">
           <Event title="QFin x Maths Union Poker Night 2022"
-                  image={Poker2021}
+                  image=""
                   date="5th of May 2022"
                   desc="An upgraded version of last year's event, with a bigger prize pool and new venue!"
                   host=""

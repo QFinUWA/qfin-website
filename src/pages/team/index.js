@@ -102,9 +102,9 @@ const Teams = () => {
         <Fade duration={2000} triggerOnce="true">
         <Person name="Jonathan Choong"
           title="Tresurer - 2021"
-          desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
+          desc="Jonathan was the Treasurer for QFin in 2021. He was a Bachelor of Philosophy (Hons) student that majored in Chemical Engineering and Computer Science. As one of the founding members, he enjoyed working on the club's original branding and marketing, recruitment of members, and securing early sponsors/grants for club events. Although pursuing a career in Chemical Engineering, he loved the conversations made possible by QFin's community, connecting with other students who also shared similar programming interests and ambitions. Jonathan hopes QFin will continue to cultivate its collaborative community such that students can discover how computer and data sciences can be applied in a range of industries and fields."
           pastRoles=""
-          github=""
+          github="https://github.com/jonathanjchoong"
           linkedin="https://www.linkedin.com/in/jonathanjchoong/"
           website=""
           twitter=""
