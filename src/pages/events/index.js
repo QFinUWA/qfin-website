@@ -81,7 +81,7 @@ const Events = () => {
           <Event title="QFin x Maths Union Poker Night 2021"
             image={Poker2021}
             date="20th of May 2021"
-            desc="QFin UWA and the UWA Maths Union hosted a Poker Tournament..."
+            desc="QFin also collaborated with the UWA Mathematics Union to bring a Poker Night to campus. It was a major social event for the club in its first ever semester. The club chose to include poker not because we endorse gambling, but due to its significance in many Quantitative Finance firms. ​​An example is Susquehanna International Group (SIG) - a major firm in the industry that holds poker at its core for social outings."
             host=""
             sponsor=""
             attendees="60"

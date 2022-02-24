@@ -89,7 +89,7 @@ const Teams = () => {
         <Fade duration={2000} triggerOnce="true">
         <Person name="Dom Sauta"
           title="President - 2021"
-          desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website, trading team projects, and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
+          desc="UNDER CONSTRUCTION."
           pastRoles=""
           github="https://github.com/domsaut"
           linkedin="https://www.linkedin.com/in/domenico-sauta/"
