@@ -89,7 +89,7 @@ const Teams = () => {
         <Fade duration={2000} triggerOnce="true">
         <Person name="Dom Sauta"
           title="President - 2021"
-          desc="UNDER CONSTRUCTION."
+          desc="Dom is the founder and first president of Quantitative Finance UWA. Alongside the 2021 executive team, he founded QFin as a way to explore an industry he found both mysterious and fascinatingly mathematical. He studied a BPhil (hons) in mathematics & statistics and finance and now works as a graduate trader at a market making firm in Sydney. Dom attests a great deal of knowledge about trading and the industry to his experiences with QFin and thinks that one of the best things any prospective trader can do is join the club. Feel free to reach out to him for a chat or advice about careers in trading via any of the his socials listed below."
           pastRoles=""
           github="https://github.com/domsaut"
           linkedin="https://www.linkedin.com/in/domenico-sauta/"
