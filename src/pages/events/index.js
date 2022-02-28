@@ -4,6 +4,8 @@ import Poker2021 from "../../components/assets/event-images/QFinPoker2021.jpg";
 import PythonWorkshop from "../../components/assets/event-images/PythonWorkshop1.jpg";
 import eTorotradeathon from "../../components/assets/event-images/tradeathonSMIFeToro.jpg";
 import studynightECOMS2021 from "../../components/assets/event-images/studynightECOMS21.png";
+import ODay2022 from "../../components/assets/event-images/Oday2022.jpg";
+import PokerNight2022Sem1 from "../../components/assets/event-images/PokerNight2022Sem1.png";
 import { Fade } from "react-awesome-reveal";
 
 const Events = () => {
@@ -16,7 +18,7 @@ const Events = () => {
           <h2 className="EventYearTitle">Upcoming Events</h2>
           <Fade duration={2000} triggerOnce="true">
           <Event title="QFin x Maths Union Poker Night 2022"
-                  image=""
+                  image={PokerNight2022Sem1}
                   date="5th of May 2022"
                   desc="An upgraded version of last year's event, with a bigger prize pool and new venue!"
                   host=""
@@ -32,14 +34,14 @@ const Events = () => {
           <h2 className="EventYearTitle">2022</h2>
           <Fade duration={2000} triggerOnce="true">
           <Event title="UWA O-Day 2022"
-            image=""
+            image={ODay2022}
             date="25th of February 2022"
             desc="Hosted a stall at UWA O-Day 2022 to advertise our club and sign up new members!"
             host=""
             sponsor=""
             attendees=""
             linkedin=""
-            facebook="" />
+            facebook="https://www.facebook.com/QFinUWA/posts/374655521328743" />
           </Fade>
         </div>
         <div className="EventYear">

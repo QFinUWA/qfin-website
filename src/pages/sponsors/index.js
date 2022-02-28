@@ -1,7 +1,7 @@
 import React from 'react';
 import Sponsor from '../../components/Sponsor';
 import IMCLogo from '../../components/assets/sponsor-images/IMCLogo.png';
-import JaneStreetLogo from '../../components/assets/sponsor-images/JaneStreetLogo.png';
+// import JaneStreetLogo from '../../components/assets/sponsor-images/JaneStreetLogo.png';
 import JaneStreetLogo2 from '../../components/assets/sponsor-images/JaneStreetLogo2.png';
 import SIGLogo from '../../components/assets/sponsor-images/SIGLogo.png';
 import OptiverLogo from '../../components/assets/sponsor-images/Optiver.png';

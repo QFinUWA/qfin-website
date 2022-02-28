@@ -184,9 +184,10 @@ footer {
     display: inline-block;
     /* margin-left: 0;
     margin-right: auto; */
-    width: 100%;
+    /* width: 100%; */
     height: auto;
     max-width: 500px;
+    max-height: 400px;
     object-fit: cover;
     /* padding: 10px; */
     padding-right: 10px;
