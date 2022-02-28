@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Home from './pages';
 import About from './pages/about';
 import Events from './pages/events';
@@ -17,7 +18,7 @@ import ScrollButton from './components/ScrollButton';
 function App() {
   return (
     <>
-    <Router>
+    <HashRouter>
       <Banner />
       <Navbar />
       <Routes>
@@ -32,7 +33,7 @@ function App() {
         <Route path='/sign-up' element={<SignUp/>} />
       </Routes>
       <ScrollButton />
-    </Router>
+    </HashRouter>
     <MyFooter />
     </>
   );
