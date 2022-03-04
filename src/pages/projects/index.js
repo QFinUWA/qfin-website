@@ -19,7 +19,7 @@ const Projects = () => {
       
       <div className="card" style={{width:"70%", margin:"20px auto", borderRadius:"5px", backgroundColor:"rgb(63,63,63)", padding:"5px"}}>
         <p className="content1" style={{textAlign:"center",fontWeight:"bold"}}>Do any of these Projects interest you? Applications are now open for 2022's Trading Team!</p>
-        <p className="content1" style={{textAlign:"center"}}>Applications close 11:59PM Wednesday, March 2nd</p>
+        <p className="content1" style={{textAlign:"center"}}>Applications close 11:59PM Sunday, March 6th</p>
         <p className="content1" style={{textAlign:"center"}}>Trading Team Description: <a href='https://bit.ly/36H8o0b' target="_blank" rel="noreferrer">Trading Team Member</a></p>
         <p className="content1" style={{textAlign:"center"}}>Application link: <a href='https://bit.ly/36H8t3Z' target="_blank" rel="noreferrer">Google Form</a></p>
       </div>

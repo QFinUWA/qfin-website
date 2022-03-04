@@ -16,7 +16,7 @@ const Home = () => {
       </div>
       <div className="card" style={{width:"70%", margin:"20px auto", borderRadius:"5px", backgroundColor:"rgb(63,63,63)", padding:"5px"}}>
         <p className="content1" style={{textAlign:"center",fontWeight:"bold"}}>Are you interested in helping run events and being more involved with QFin? We are now taking applications for Ordinary Committee Members!</p>
-        <p className="content1" style={{textAlign:"center"}}>Applications close 11:59PM Wednesday, March 2nd</p>
+        <p className="content1" style={{textAlign:"center"}}>Applications close 11:59PM Sunday, March 6th</p>
         <p className="content1" style={{textAlign:"center"}}>OCM Description: <a href='https://bit.ly/3AjTdH8' target="_blank" rel="noreferrer">Ordinary Committee Member</a></p>
         <p className="content1" style={{textAlign:"center"}}>Application link: <a href='https://bit.ly/3xtVL3E' target="_blank" rel="noreferrer">Google Form</a></p>
       </div>
