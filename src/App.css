@@ -125,7 +125,7 @@ footer {
     height: auto;
     /* background-color: #141416; */
     /* border-radius: 2px; */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
@@ -258,7 +258,7 @@ hr.Section-separator{
     background-color: #070707;
     width: auto;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
     margin: 10px;
     height: 800px;
     /* min-height: 600px; */
@@ -307,7 +307,7 @@ hr.Section-separator{
 .PlatinumSponsor{
     align-items: top;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
     width: auto;
     margin: auto;
     padding: 10px;
@@ -326,7 +326,7 @@ hr.Section-separator{
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: top;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
     width: auto;
     margin: auto;
     padding: 10px;
