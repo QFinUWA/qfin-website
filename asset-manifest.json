@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4644a0e9.chunk.css",
-    "main.js": "/static/js/main.b1f0d1cb.chunk.js",
-    "main.js.map": "/static/js/main.b1f0d1cb.chunk.js.map",
+    "main.js": "/static/js/main.e704030d.chunk.js",
+    "main.js.map": "/static/js/main.e704030d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b0338837.js",
     "runtime-main.js.map": "/static/js/runtime-main.b0338837.js.map",
     "static/js/2.7eb3a30e.chunk.js": "/static/js/2.7eb3a30e.chunk.js",
@@ -30,6 +30,7 @@
     "static/media/QFinPoker2021.66c08ddb.jpg": "/static/media/QFinPoker2021.66c08ddb.jpg",
     "static/media/Reversion.fbbada9c.png": "/static/media/Reversion.fbbada9c.png",
     "static/media/SIGLogoInverted.e00149be.png": "/static/media/SIGLogoInverted.e00149be.png",
+    "static/media/TradingTeamProjectStart.4e64a55e.jpg": "/static/media/TradingTeamProjectStart.4e64a55e.jpg",
     "static/media/UWA_logo.107767fe.svg": "/static/media/UWA_logo.107767fe.svg",
     "static/media/studynightECOMS21.de1919a5.png": "/static/media/studynightECOMS21.de1919a5.png",
     "static/media/tradeathonSMIFeToro.c06d0a0a.jpg": "/static/media/tradeathonSMIFeToro.c06d0a0a.jpg"
@@ -38,6 +39,6 @@
     "static/js/runtime-main.b0338837.js",
     "static/js/2.7eb3a30e.chunk.js",
     "static/css/main.4644a0e9.chunk.css",
-    "static/js/main.b1f0d1cb.chunk.js"
+    "static/js/main.e704030d.chunk.js"
   ]
 }
