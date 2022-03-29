@@ -6,6 +6,7 @@ import eTorotradeathon from "../../components/assets/event-images/tradeathonSMIF
 import studynightECOMS2021 from "../../components/assets/event-images/studynightECOMS21.png";
 import ODay2022 from "../../components/assets/event-images/Oday2022.jpg";
 import PokerNight2022Sem1 from "../../components/assets/event-images/PokerNight2022Sem1.png";
+import TradingTeamProjectStart from "../../components/assets/event-images/TradingTeamProjectStart.jpg";
 import { Fade } from "react-awesome-reveal";
 
 const Events = () => {
@@ -33,7 +34,7 @@ const Events = () => {
       <div className="EventYear">
         <h2 className="EventYearTitle">2022</h2>
 
-        <Fade duration={2000} triggerOnce="true">
+        {/* <Fade duration={2000} triggerOnce="true">
           <Event title="QFin x Maths Union - Trading Workshop with Adrian Dudek"
             image={ODay2022}
             date="25th of February 2022"
@@ -43,6 +44,19 @@ const Events = () => {
             attendees="50"
             linkedin=""
             facebook="" />
+        </Fade> */}
+        <Fade duration={2000} triggerOnce="true">
+          <Event title="Trading Team 2022 - Project Initiation Semester 1"
+            image={TradingTeamProjectStart}
+            date="16th of March 2022"
+            desc="The trading team met up for their introductory meeting to talk about the project for the semester. It was a very interesting meeting organised and run by QFin's Director of Trading, Jake Lyell. It introduced the concept of Mean Reversion to the traders and familiarised them with Jake's custom back-testing framework.
+
+            They were then split up into their respective teams and assigned team leaders. Each team will compete to produce the best quantitative trading algorithm and accompanying report for the semester."
+            host="Jake Lyell"
+            sponsor="Optiver"
+            attendees="10"
+            linkedin="https://www.linkedin.com/posts/qfin-uwa_trading-team-project-activity-6911923365452656640-rQ0E?utm_source=linkedin_share&utm_medium=member_desktop_web"
+            facebook="https://www.facebook.com/QFinUWA/posts/386535556807406" />
         </Fade>
 
         <Fade duration={2000} triggerOnce="true">
