@@ -7,6 +7,7 @@ import studynightECOMS2021 from "../../components/assets/event-images/studynight
 import ODay2022 from "../../components/assets/event-images/Oday2022.jpg";
 import PokerNight2022Sem1 from "../../components/assets/event-images/PokerNight2022Sem1.png";
 import TradingTeamProjectStart from "../../components/assets/event-images/TradingTeamProjectStart.jpg";
+import AdrianTradingWorkshop from "../../components/assets/event-images/AdrianTradingWorkshop.jpg";
 import { Fade } from "react-awesome-reveal";
 
 const Events = () => {
@@ -34,17 +35,18 @@ const Events = () => {
       <div className="EventYear">
         <h2 className="EventYearTitle">2022</h2>
 
-        {/* <Fade duration={2000} triggerOnce="true">
+        <Fade duration={2000} triggerOnce="true">
           <Event title="QFin x Maths Union - Trading Workshop with Adrian Dudek"
-            image={ODay2022}
-            date="25th of February 2022"
-            desc="Introduction to Trading Workshop hosted by Adrian Dudek - Head of Academic Partnerships at Optiver"
+            image={AdrianTradingWorkshop}
+            date="28th of March 2022"
+            desc="QFin had the pleasure of hosting an Introduction to Trading Workshop with Dr. Adrian Dudek. With an impressive turnout of participants, we can appreciate the success of this event.
+                  Firstly, a massive thank you to Dr. Dudek and Optiver Australia for providing us and the attendees with a comprehensive introduction to the complex world of trading. Adrian presented these often convoluted concepts in an accessible format, allowing participants with varying degrees of knowledge to effectively engage with the content of the presentation."
             host="Adrian Dudek - Optiver"
             sponsor="Optiver"
             attendees="50"
-            linkedin=""
-            facebook="" />
-        </Fade> */}
+            linkedin="https://www.linkedin.com/posts/qfin-uwa_trading-optiver-adriandudek-activity-6914888428098617344-yMrZ?utm_source=linkedin_share&utm_medium=member_desktop_web"
+            facebook="https://www.facebook.com/QFinUWA/posts/395769655883996" />
+        </Fade>
         <Fade duration={2000} triggerOnce="true">
           <Event title="Trading Team 2022 - Project Initiation Semester 1"
             image={TradingTeamProjectStart}
