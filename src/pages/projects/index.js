@@ -43,7 +43,7 @@ const Projects = () => {
               DOTlink="https://www.linkedin.com/in/jake-lyell/"
               desc="This Project will be focused on the theory of mean reversion. Teams will be given a set of historical data and will be tasked with finding the optimal parameters for a mean reversion model."
               tools="Python, Pandas, Custom Backtesting Module"
-              repolink="TBD" />
+              repolink="https://github.com/QFinUWA/Mean-Reversion-Trading-Team-Project-Semester-1-2022" />
           </Fade>
         </div>
         {/* <hr className='Section-separator' /> */}

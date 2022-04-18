@@ -8,6 +8,7 @@ import ODay2022 from "../../components/assets/event-images/Oday2022.jpg";
 import PokerNight2022Sem1 from "../../components/assets/event-images/PokerNight2022Sem1.png";
 import TradingTeamProjectStart from "../../components/assets/event-images/TradingTeamProjectStart.jpg";
 import AdrianTradingWorkshop from "../../components/assets/event-images/AdrianTradingWorkshop.jpg";
+import IMCPythonWorkshop from "../../components/assets/event-images/IMCPythonWorkshop.jpg";
 import { Fade } from "react-awesome-reveal";
 
 const Events = () => {
@@ -34,6 +35,19 @@ const Events = () => {
       {/* <hr className='Section-separator'></hr> */}
       <div className="EventYear">
         <h2 className="EventYearTitle">2022</h2>
+
+        <Fade duration={2000} triggerOnce="true">
+          <Event title="QFin x IMC - Introduction to Python Workshop"
+            image={IMCPythonWorkshop}
+            date="14th of April 2022"
+            desc="QFin had the pleasure of hosting IMC Trading to run their Python Workshop!
+            This event attracted an impressive turnout for both the beginner and intermediate classes and a lot of attendees benefited from talking with the IMC Trading representatives. It was a great chance to talk to industry professionals and learn more about future career opportunities!"
+            host="IMC Trading"
+            sponsor="IMC"
+            attendees="50"
+            linkedin="https://www.linkedin.com/posts/qfin-uwa_last-night-qfin-had-the-pleasure-of-hosting-activity-6920737179627360256-6R6t?utm_source=linkedin_share&utm_medium=member_desktop_web"
+            facebook="https://www.facebook.com/QFinUWA/posts/407181511409477" />
+        </Fade>
 
         <Fade duration={2000} triggerOnce="true">
           <Event title="QFin x Maths Union - Trading Workshop with Adrian Dudek"

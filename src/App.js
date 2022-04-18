@@ -14,29 +14,29 @@ import MyFooter from './components/MyFooter';
 import Banner from './components/Banner';
 import ScrollButton from './components/ScrollButton';
 
-  
+
 function App() {
   return (
     <>
-    <HashRouter>
-      <Banner />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/qfin-website" element={<Home/>} />
-        <Route path='/home' element={<Home/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/events' element={<Events/>} />
-        <Route path='/projects' element={<Projects/>} />
-        <Route path='/sponsors' element={<Sponsors/>} />
-        <Route path='/team' element={<Teams/>} />
-        <Route path='/sign-up' element={<SignUp/>} />
-      </Routes>
-      <ScrollButton />
-    </HashRouter>
-    <MyFooter />
+      <HashRouter>
+        <Banner />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/qfin-website" element={<Home />} />
+          <Route path='/home' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/events' element={<Events />} />
+          <Route path='/projects' element={<Projects />} />
+          <Route path='/sponsors' element={<Sponsors />} />
+          <Route path='/team' element={<Teams />} />
+          <Route path='/sign-up' element={<SignUp />} />
+        </Routes>
+        <ScrollButton />
+      </HashRouter>
+      <MyFooter />
     </>
   );
 }
-  
+
 export default App;
