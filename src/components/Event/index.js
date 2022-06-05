@@ -12,10 +12,17 @@ const Event = (children) => {
                 {children.image.length > 0 &&
                 <img className="Event-image" src={children.image} alt={children.title} />
                 }
+                { children.date.length > 0 &&
                 <p className="Event-date"><b>Date</b>: {children.date}</p>
+                }
+                { children.desc.length > 0 &&
                 <p className="Event-desc"> <b>Description</b>: {children.desc}</p>
+                }
                 {children.host.length > 0 &&
                 <p className="Event-host"> <b>Host</b>: {children.host}</p>
+                }
+                {children.sponsor.length > 0 &&
+                <p className="Event-sponsor"><b>Sponsors</b>: {children.sponsor}</p>
                 }
                 {children.attendees.length > 0 &&
                 <p className="Event-attendees"><b>Attendees</b>: {children.attendees}</p>

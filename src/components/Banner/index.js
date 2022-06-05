@@ -6,7 +6,9 @@ import { NavLink } from 'react-router-dom';
 const Banner = () => {
     return (
         <>
-            <NavLink to="/home"><img className="banner" src={bannerimg} alt="QFin Banner" /></NavLink>
+        <div style={{backgroundColor: "rgb(63,63,63)"}}>
+            <NavLink to="/home" style={{margin:"auto"}}><img className="banner"  src={bannerimg} alt="QFin Banner" /></NavLink>
+        </div>
         </>
     );
 };

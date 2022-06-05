@@ -9,6 +9,7 @@ import PokerNight2022Sem1 from "../../components/assets/event-images/PokerNight2
 import TradingTeamProjectStart from "../../components/assets/event-images/TradingTeamProjectStart.jpg";
 import AdrianTradingWorkshop from "../../components/assets/event-images/AdrianTradingWorkshop.jpg";
 import IMCPythonWorkshop from "../../components/assets/event-images/IMCPythonWorkshop.jpg";
+import IMCTradingReview from "../../components/assets/event-images/IMCTradingReview.jpg";
 import { Fade } from "react-awesome-reveal";
 
 const Events = () => {
@@ -20,12 +21,12 @@ const Events = () => {
       <div className="UpcomingEvents">
         <h2 className="EventYearTitle">Upcoming Events</h2>
         <Fade duration={2000} triggerOnce="true">
-          <Event title="QFin x Maths Union - Poker Night 2022"
-            image={PokerNight2022Sem1}
-            date="5th of May 2022"
-            desc="An upgraded version of last year's event, with a bigger prize pool and new venue!"
+          <Event title="Semester 2 Events - Coming Soon"
+            image={""}
+            date=""
+            desc=""
             host=""
-            sponsor="SIG"
+            sponsor=""
             attendees=""
             linkedin=""
             facebook="" />
@@ -35,6 +36,27 @@ const Events = () => {
       {/* <hr className='Section-separator'></hr> */}
       <div className="EventYear">
         <h2 className="EventYearTitle">2022</h2>
+
+        <Fade duration={2000} triggerOnce="true">
+          <Event title="QFin x Maths Union - Poker Night 2022"
+            image={PokerNight2022Sem1}
+            date="10th of May 2022"
+            desc="An upgraded version of last year's event, with a bigger prize pool and new venue!"
+            host=""
+            sponsor="SIG"
+            attendees="80"
+            linkedin=""
+            facebook="" />
+        </Fade>
+        <Event title="QFin x IMC - Trading Team Project Review"
+          image={IMCTradingReview}
+          date="10th of May 2022"
+          desc="IMC Trading sent out one of their Quant Traders, Leo Li, to review the Trading Teams' algorithms from the semester and gave his feedback. Our Vice President introduced the Project (as our Director of Trading was sick), and the 3 teams presented their algorithms to Leo to receieve his feedback."
+          host="Kane Alexander (fill-in for Jake Lyell)"
+          sponsor="IMC"
+          attendees="Trading Team + Committee"
+          linkedin=""
+          facebook="https://www.facebook.com/QFinUWA/posts/427254369402191" /> 
 
         <Fade duration={2000} triggerOnce="true">
           <Event title="QFin x IMC - Introduction to Python Workshop"
@@ -69,7 +91,7 @@ const Events = () => {
 
             They were then split up into their respective teams and assigned team leaders. Each team will compete to produce the best quantitative trading algorithm and accompanying report for the semester."
             host="Jake Lyell"
-            sponsor="Optiver"
+            sponsor="IMC"
             attendees="10"
             linkedin="https://www.linkedin.com/posts/qfin-uwa_trading-team-project-activity-6911923365452656640-rQ0E?utm_source=linkedin_share&utm_medium=member_desktop_web"
             facebook="https://www.facebook.com/QFinUWA/posts/386535556807406" />
