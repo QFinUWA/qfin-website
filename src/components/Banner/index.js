@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <>
         <div style={{backgroundColor: "rgb(63,63,63)"}}>
-            <NavLink to="/home" style={{margin:"auto"}}><img className="banner"  src={bannerimg} alt="QFin Banner" /></NavLink>
+            <NavLink to="/home" style={{margin:"auto"}}><img className="banner"  src={bannerimg} alt="QFin Banner" width="1920px" height="263px" /></NavLink>
         </div>
         </>
     );
