@@ -18,8 +18,7 @@ export const Nav = styled.nav`
     display: grid;
     grid-template-rows: 3rem auto;
     place-items: center;
-    height: minmax(100%, max-content);
-    // height: max-content;
+    height: 100%;
   }
 `;
 
@@ -34,9 +33,11 @@ export const NavLink = styled(Link)`
   padding: 0 1rem;
   height: 50px;
   cursor: pointer;
+
   &.active {
     color: #000000;
   }
+
   @media screen and (max-width: 768px) {
     justify-content: center;
     height: 100%;
@@ -55,6 +56,7 @@ export const NavQFin = styled(Link)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+
   &.active {
     color: #000000;
   }
@@ -62,6 +64,7 @@ export const NavQFin = styled(Link)`
 
 // Icon for the hamburger menu
 export const Bars = styled(FaBars)`
+  display: none;
   color: #808080;
   background: #24CC54;
   height: 2rem;
@@ -70,6 +73,10 @@ export const Bars = styled(FaBars)`
   right: 1.5rem;
   font-size: 1.8rem;
   cursor: pointer;
+
+  @media screen and (max-width: 768px) {
+    display: block;
+  }
 `;
 
 export const NavMenu = styled.div`
@@ -80,18 +87,9 @@ export const NavMenu = styled.div`
   /* Third Nav */
   /* width: 100vw;
   white-space: nowrap; */
+
   @media screen and (max-width: 768px) {
-    align-items: right;
-    float: right;
-    margin-top: 4px;
-    background-color: rgba(97, 97, 102, 0.9);
-    width: auto;
-    display: grid;
-    grid-auto-rows: 1fr;
-    grid-template-columns: 1fr;
-    place-items: center;
-    grid-gap: 0.5rem;
-    padding-bottom: 1rem;
+    display: none;
   }
 `;
 
@@ -104,6 +102,7 @@ export const NavBtn = styled.nav`
   /* Third Nav */
   /* justify-content: flex-end;
   width: 100vw; */
+
   @media screen and (max-width: 768px) {
     display: none;
   }
@@ -122,6 +121,7 @@ export const NavBtnLink = styled(Link)`
   text-decoration: none;
   /* Second Nav */
   margin-left: 24px;
+
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
@@ -135,11 +135,17 @@ export const BurgerNavMenu = styled.div`
   float: right;
   background-color: rgba(97, 97, 102, 0.9);
   width: 100%;
-  display: grid;
-  grid-auto-rows: 1fr;
-  grid-template-columns: 1fr;
+  display: none;
+  grid-auto-rows: 50px;
   place-items: center;
   grid-gap: 0.5rem;
-  padding: 1rem 0rem 1rem 0rem;
-  z-index: 10
-  `
+  padding: ${({ burgerOpen }) => !burgerOpen ? '0' : '1rem 0'};
+  z-index: 10;
+  max-height: ${({ burgerOpen }) => !burgerOpen ? '0' : '100vh'};
+  overflow: hidden;
+  transition: 600ms;
+
+  @media screen and (max-width: 768px) {
+    display: grid;
+  }
+`;
