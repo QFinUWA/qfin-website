@@ -41,7 +41,7 @@ const Events = () => {
           <Event title="QFin x Maths Union - Poker Night 2022"
             image={PokerNight2022Sem1}
             date="10th of May 2022"
-            desc="An upgraded version of last year's event, with a bigger prize pool and new venue!"
+            desc="An upgraded version of last year's event, with a bigger prize pool and new venue!!"
             host=""
             sponsor="SIG"
             attendees="80"
