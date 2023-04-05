@@ -12,9 +12,9 @@ import { Fade } from "react-awesome-reveal";
 const Sponsors = () => {
   return (
     <div className="page">
-      <h1 className="title">QFin's 2022 Sponsors</h1>
+      <h1 className="title">QFin's 2023 Sponsors</h1>
       <p style={{ textAlign: "center" }} className="content">QFin's Sponsors for 2022, providing us with financial support to run our events and projects throughout the year.</p>
-      <p className="content" style={{ textAlign: "center", fontWeight: "bold", margin: "10px" }}><a href={SponsorTiers} download="QFin Sponsorship Tiers">Our Sponsorship Tiers</a></p>
+      {/* <p className="content" style={{ textAlign: "center", fontWeight: "bold", margin: "10px" }}><a href={SponsorTiers} download="QFin Sponsorship Tiers">Our Sponsorship Tiers</a></p> */}
       <div className="SponsorsContainer">
         <hr />
         <h2 className="Sponsor-type" style={{ fontSize: "3rem" }}>Platinum Sponsor</h2>
@@ -54,6 +54,8 @@ const Sponsors = () => {
         <h2 className="Sponsor-type">Silver Sponsors</h2>
         <div className="SilverSponsors"></div> */}
       </div>
+      {/* If Jake doens't catch this then he sucks at reviewing PRs */}
+
     </div>
   );
 };

@@ -2,90 +2,89 @@
 import React from 'react';
 import Person from '../../components/Person';
 
-import Jake from '../../components/assets/portraits/Jake small.jpg';
-import Jatin from '../../components/assets/portraits/Jatin small.jpg';
-import Kane from '../../components/assets/portraits/Kane small.jpg';
-import Jade from '../../components/assets/portraits/Jade small.jpg';
-import Henry from '../../components/assets/portraits/Henry small.jpg';
-import Dom from '../../components/assets/portraits/Dom small.png';
-import Jon from '../../components/assets/portraits/Jon small.png';
+import Zach from '../../components/assets/portraits/Zach small.jpg';
+import Lucas from '../../components/assets/portraits/Lucas small.jpg';
+import Isaac from '../../components/assets/portraits/Isaac small.jpg';
+import Lachy from '../../components/assets/portraits/Lachy small.jpg';
+import Luke from '../../components/assets/portraits/Luke small.jpg';
 
 import { Fade } from "react-awesome-reveal";
 
 const Teams = () => {
   return (
     <div className="page" style={{maxWidth:"90%"}}>
-      <h1 className="title">2022 QFin Executive Team</h1>
-      <p className="content" style={{textAlign:"center",padding:"15px 0px"}}>The current team of Execs in charge of running QFin for 2022</p>
+      <h1 className="title">2023 QFin Executive Team</h1>
+      <p className="content" style={{textAlign:"center",padding:"15px 0px"}}>The current team of Execs in charge of running QFin for 2023</p>
       <div className="TeamContainer">
       <Fade duration={2000} triggerOnce="true">
-        <Person name="Jatin Poonia"
+        <Person name="Zachary Ching"
           title="President"
-          desc="Jatin is the President of QFin UWA for 2022. He was a member of QFin in 2021 where he fulfilled responsibilities as a Vice President. Jatin manages the club focusing on making decision that will advance the clubs position in UWA and benefit its members as much as possible. He is studying the bachelor of commerce, majoring in Finance and plans to extend his knowledge to prepare himself for the workforce."
-          pastRoles="2021 Vice President"
+          desc="Zach is the President of QFin UWA for 2023. He was a member of QFin in 2022 where he fulfilled
+                 responsibilities as the Director of Trading. Zach manages the club focusing on making decision that will advance the clubs position in UWA and benefit its members as much as possible. He is studying Data Science and Finance and plans to extend his knowledge to prepare himself for the workforce."
+          pastRoles="2022 Director of Trading"
           github=""
-          linkedin="https://www.linkedin.com/in/jatin-poonia-528a441a2/"
+          linkedin="https://www.linkedin.com/in/zachary-ching-647a8318b/"
           website=""
           twitter=""
-          facebook="https://www.facebook.com/profile.php?id=100008863037493"
-          email="president@qfinuwa.com"
-          image={Jatin} />
+          facebook=""
+          email="zachary.ching325@gmail.com"
+          image={Zach} />
       </Fade>
       <Fade duration={2000} triggerOnce="true">
-        <Person name="Kane Alexander"
+        <Person name="Lucas Siciliano"
           title="Vice President"
-          desc="Kane is the Vice President of QFin UWA for 2022. Last year he was the Executive Director of Trading where he coordinated the first trading team projects. Kane utilizes his technical and leadership experience to help QFin develop as a leading technology club on campus. He is in his honours year of software engineering and computer science."
-          pastRoles="2021 Director of Trading"
-          github="https://github.com/Kanealex"
-          linkedin="https://www.linkedin.com/in/kane-alexander-08131b216/"
-          website="https://kane-alexander.com/"
+          desc="Lucas is the Vice President of QFin UWA for 2023. Last year he was a member of the Trading Team where he undertook trading projects. Lucas utilizes his technical and leadership experience to help QFin develop as a leading technology club on campus. He is in his second year of a Mathematics and Statistics degree."
+          pastRoles="2022 Trading Team Member"
+          github=""
+          linkedin="https://www.linkedin.com/in/lucas-siciliano-234b4a252/"
+          website=""
           twitter=""
           facebook=""
-          email="vice-president@qfinuwa.com"
-          image={Kane} />
+          email="lucas.sicili@gmail.com"
+          image={Lucas} />
         </Fade>
         <Fade duration={2000} triggerOnce="true">
-          <Person name="Jake Lyell"
-            title="Director of Trading"
-            desc="Jake is the Executive Director of Trading at QFin. He is responsible for the overall direction of the trading team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website and proprietary software. Jake is studying a double major in Computer Science and Data Science and plans to pursure honours in Computer Science and Software Engineering in 2022."
-            pastRoles="2021 Trading Team Member"
-            github="https://github.com/JakeLDev"
-            linkedin="https://www.linkedin.com/in/jake-lyell/"
-            website="https://jakelyell.dev"
-            twitter=""
-            facebook=""
-            email="director-of-trading@qfinuwa.com"
-            image={Jake} />
-        </Fade>
-        <Fade duration={2000} triggerOnce="true">
-          <Person name="Jade Sauta"
+          <Person name="Lachlan Reedy"
             title="Secretary"
-            desc="Reprising the role from QFin’s inception in 2021, Jade is the Secretary of QFin UWA in 2022. She is responsible for liasing with stakeholders and maintaining the administrative side of QFin’s affairs. Jade is studying a double major in Political Science & International Relations and English & Literary Studies in 2022 and enjoys diversifying her skill set through learning about quantitative trading."
-            pastRoles="2021 Secretary"
+            desc="Lachy is the Secretary of QFin UWA in 2023 and is responsible for liasing with stakeholders and maintaining the administrative side of QFin’s affairs. Lachy is majoring in Finance, Economics & Data Science and enjoys diversifying his skill set through learning about quantitative trading."
+            pastRoles=""
             github=""
-            linkedin=""
+            linkedin="https://www.linkedin.com/in/lachlan-reedy/"
             website=""
             twitter=""
             facebook=""
-            email="admin@qfinuwa.com"
-            image={Jade} />
+            email="Lachyreedy@gmail.com"
+            image={Lachy} />
         </Fade>
         <Fade duration={2000} triggerOnce="true">
-        <Person name="Henry Miao"
+        <Person name="Luke Osborne,"
           title="Treasurer"
-          desc="Henry is the Treasurer of QFin UWA for 2022. He performs financial tasks for the club, which includes club bookkeeping, event budgeting, and applying for grants. Henry is also responsible for updating the club’s financial statement and furnishing the Committee with such updates relating to the finances and property of the club. He is studying a major in Finance in the Bachelor of Philosophy degree, and is currently pursuing his Honours."
-          pastRoles="2021 Committee Member"
+          desc="Luke is the Treasurer of QFin UWA for 2023. He performs financial tasks for the club, which includes club bookkeeping, event budgeting, and applying for grants. Luke is also responsible for updating the club’s financial statement and furnishing the Committee with such updates relating to the finances and property of the club. He is majoring in Mathematics and Statistics and Economics through a Bachelor of Philosophy, and is currently pursuing his Honours."
+          pastRoles=""
           github=""
-          linkedin="https://www.linkedin.com/in/henry-miao/"
+          linkedin="https://www.linkedin.com/in/lukeosborneau/"
           website=""
           twitter=""
-          facebook="https://www.facebook.com/henry.miao.58"
-          email="treasurer@qfinuwa.com"
-          image={Henry} />
+          facebook=""
+          email="lukeosborneau@gmail.com"
+          image={Luke} />
         </Fade>
       </div>
-      <h2 className="subtitle">Past executives</h2>
-      <div className="TeamContainer">
+      <Fade duration={2000} triggerOnce="true">
+        <Person name="Isaac Bergl"
+          title="Director of Trading"
+          desc="Isaac is the Executive Director of Trading at QFin. He is responsible for the overall direction of the trading team, and oversees the completion of the trading team's projects. He is also responsible for the development of QFin's website and proprietary software. Isaac is studying a double major in Computer Science and Mathematics and achieved first class honours in Transformer-based image detectors."
+          pastRoles="Trading Team Member"
+          github="https://github.com/itbergl"
+          linkedin="https://www.linkedin.com/in/isaac-bergl-2531b81b5/"
+          website="https://isaacbergl.com"
+          twitter=""
+          facebook=""
+          email="isaac.bergl@outlook.com"
+          image={Isaac} />
+      </Fade>
+      {/* <h2 className="subtitle">Past executives</h2> */}
+      {/* <div className="TeamContainer">
         <Fade duration={2000} triggerOnce="true">
         <Person name="Dom Sauta"
           title="President - 2021"
@@ -112,7 +111,7 @@ const Teams = () => {
           email=""
           image={Jon} />
         </Fade>
-      </div>
+      </div> */}
     </div>
   );
 };

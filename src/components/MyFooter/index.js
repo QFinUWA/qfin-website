@@ -4,7 +4,7 @@ import mediaLinks from './mediaLinks';
 
 const mailQfin = () => {
     if (typeof window !== 'undefined') {
-        window.location.href="mailto:admin@qfinuwa.com";
+        window.location.href="mailto:qfinuwa@gmail.com";
     }
 }
 
@@ -17,7 +17,7 @@ const MyFooter = () => {
                     <h2 id="footer-header">Contact Us</h2>
                     <p>
                         <button onClick={mailQfin}>Email Us</button>  <br/>
-                        admin@qfinuwa.com
+                        qfinuwa@gmail.com
                     </p>
                     <div className="footer-icons">
                         {mediaLinks.map((media) => 
@@ -35,7 +35,7 @@ const MyFooter = () => {
                     </div>
                 </div>
                 <div>
-                    <p className="content" style={{textAlign: "center", margin: "2px 0", }}>Website created with ♥ (and React.js) by <a href="https://github.com/JakeLDev" target="_blank" rel="noreferrer">Jake Lyell</a> and <a href="https://github.com/cookies-xor-cream" target="_blank" rel="noreferrer">Arya Gerami Zadegan</a></p>
+                    <p className="content" style={{textAlign: "center", margin: "2px 0", }}>Website created with ♥ (and React.js) by <a href="https://github.com/JakeLDev" target="_blank" rel="noreferrer">Jake Lyell</a>, <a href="https://github.com/itbergl" target="_blank" rel="noreferrer">Isaac Bergl</a> and <a href="https://github.com/cookies-xor-cream" target="_blank" rel="noreferrer">Arya Gerami Zadegan</a></p>
                 </div>
             </footer>
         </>
