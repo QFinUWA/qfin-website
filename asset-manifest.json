@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6141cae.css",
-    "main.js": "/static/js/main.25df2db8.js",
+    "main.css": "/static/css/main.49db080b.css",
+    "main.js": "/static/js/main.1842fccc.js",
     "static/media/TradingTeamProjectStart.jpg": "/static/media/TradingTeamProjectStart.4e64a55e990d95bdc265.jpg",
     "static/media/IMCTradingReview.jpg": "/static/media/IMCTradingReview.7f5542d68c8da87651b4.jpg",
     "static/media/QFinPoker2021.jpg": "/static/media/QFinPoker2021.66c08ddbdee0883a41a3.jpg",
-    "static/media/Jon small.png": "/static/media/Jon small.9f8229d9277c4fe29a30.png",
     "static/media/AdrianTradingWorkshop.jpg": "/static/media/AdrianTradingWorkshop.ea0416cf633933f3f5dd.jpg",
-    "static/media/Dom small.png": "/static/media/Dom small.7c9e6a66b7863dc102ae.png",
     "static/media/QFin Sponsorship Tiers.pdf": "/static/media/QFin Sponsorship Tiers.44146c13088dcce47853.pdf",
     "static/media/IMCPythonWorkshop.jpg": "/static/media/IMCPythonWorkshop.9c228c0b2f2bdd3e17be.jpg",
     "static/media/UWA_logo.svg": "/static/media/UWA_logo.107767fed0dade92e2dc4404148106c2.svg",
     "static/media/Oday2022.jpg": "/static/media/Oday2022.16f6c2e52a7a91541413.jpg",
-    "static/media/Jade small.jpg": "/static/media/Jade small.b217e4c20a60f383ef81.jpg",
+    "static/media/Lucas small.jpg": "/static/media/Lucas small.e5b56c1341c35339a5c7.jpg",
+    "static/media/Lachy small.jpg": "/static/media/Lachy small.cb615b866147c9a6f240.jpg",
     "static/media/tradeathonSMIFeToro.jpg": "/static/media/tradeathonSMIFeToro.c06d0a0abfccf3cefacd.jpg",
-    "static/media/Henry small.jpg": "/static/media/Henry small.59211a8c1f94f5474c6a.jpg",
-    "static/media/Jake small.jpg": "/static/media/Jake small.df74dce855296ea0cf9b.jpg",
-    "static/media/Jatin small.jpg": "/static/media/Jatin small.96a288c03d020ea8b135.jpg",
     "static/media/PythonWorkshop1.jpg": "/static/media/PythonWorkshop1.74104be4228410cb077f.jpg",
-    "static/media/Kane small.jpg": "/static/media/Kane small.450a4c5e7c9bd51ec26f.jpg",
+    "static/media/Luke small.jpg": "/static/media/Luke small.4a90195368b9dcfed8f3.jpg",
+    "static/media/Zach small.jpg": "/static/media/Zach small.6cad016e5afb09af9352.jpg",
     "static/media/IMCLogo.png": "/static/media/IMCLogo.9a83c43f5e86c9e9d175.png",
     "static/media/QFin LinkedIn Banner Thinner.png": "/static/media/QFin LinkedIn Banner Thinner.d05b6b01a4590c76087f.png",
     "static/media/PokerNight2022Sem1.png": "/static/media/PokerNight2022Sem1.4012716b1fe512032ea8.png",
+    "static/media/Isaac small.jpg": "/static/media/Isaac small.d062ec1d603ba228648d.jpg",
     "static/media/studynightECOMS21.png": "/static/media/studynightECOMS21.de1919a5e3f97cd47933.png",
     "static/media/Pairs.png": "/static/media/Pairs.8146ff8087ee32a90a15.png",
     "static/media/JaneStreetLogo2Inverted.png": "/static/media/JaneStreetLogo2Inverted.6aebcfa5375b587bf59a.png",
@@ -30,11 +28,11 @@
     "static/media/SIGLogoInverted.png": "/static/media/SIGLogoInverted.e00149becf59ffef4746.png",
     "static/media/OptiverInverted.png": "/static/media/OptiverInverted.d8022ba09c0613610b3a.png",
     "index.html": "/index.html",
-    "main.e6141cae.css.map": "/static/css/main.e6141cae.css.map",
-    "main.25df2db8.js.map": "/static/js/main.25df2db8.js.map"
+    "main.49db080b.css.map": "/static/css/main.49db080b.css.map",
+    "main.1842fccc.js.map": "/static/js/main.1842fccc.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6141cae.css",
-    "static/js/main.25df2db8.js"
+    "static/css/main.49db080b.css",
+    "static/js/main.1842fccc.js"
   ]
 }
